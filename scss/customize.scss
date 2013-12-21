@@ -13,11 +13,11 @@ header { position: fixed; left: 0; right: 0; top:auto; bottom: 240px; z-index: 3
 		li a { display: block; height: 50px; float: left; margin-left: 10px; background: url('../img/nav.png'); text-indent: -1000em;  }
 		$nav_v: 7px;
 		$nav_v2: -53px;
-		#nav-1 { width: 190px; background-position: 0 $nav_v}
+		#nav-1 { width: 190px; background-position: 0 $nav_v; cursor: default; }
 		#nav-2 { width: 140px; background-position: -200px $nav_v}
 		#nav-3 { width: 140px; background-position: -350px $nav_v}
 
-		#nav-1:hover, .active #nav-1 { background-position: 0 $nav_v2; }
+		#nav-1:hover, .active #nav-1 { background-position: 0 $nav_v; }
 		#nav-2:hover, .active #nav-2 { background-position: -200px $nav_v2; }
 		#nav-3:hover, .active #nav-3{ background-position: -350px $nav_v2; }
 	}

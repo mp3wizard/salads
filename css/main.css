@@ -484,7 +484,8 @@ header {
       text-indent: -1000em; }
     header nav #nav-1 {
       width: 190px;
-      background-position: 0 7px; }
+      background-position: 0 7px;
+      cursor: default; }
     header nav #nav-2 {
       width: 140px;
       background-position: -200px 7px; }
@@ -492,7 +493,7 @@ header {
       width: 140px;
       background-position: -350px 7px; }
     header nav #nav-1:hover, header nav .active #nav-1 {
-      background-position: 0 -53px; }
+      background-position: 0 7px; }
     header nav #nav-2:hover, header nav .active #nav-2 {
       background-position: -200px -53px; }
     header nav #nav-3:hover, header nav .active #nav-3 {

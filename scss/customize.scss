@@ -1,0 +1,51 @@
+@import "neat/neat";
+@import "font";
+@import "variable";
+
+html, body { width: 100%; height: 100%; }
+body { font-family: Helvetica, Arial; background-repeat: no-repeat; background-position: center center }
+header { position: fixed; left: 0; right: 0; top:auto; bottom: 240px; z-index: 3;
+	h1 { margin: 0; }
+	h1 a { width: 254px; height: 143px; display: block; text-indent: -1000em; background: url('../img/logo.png') no-repeat; margin-left: -468px; left: 50%; position: absolute; top: 53px; }
+	nav { position: absolute; left: 50%; margin-left: -120px; top: 65px;
+		ul { list-style: none; margin: 0; padding: 0; }
+		li { display: inline; }
+		li a { display: block; height: 50px; float: left; margin-left: 10px; background: url('../img/nav.png'); text-indent: -1000em;  }
+		$nav_v: 7px;
+		$nav_v2: -53px;
+		#nav-1 { width: 190px; background-position: 0 $nav_v}
+		#nav-2 { width: 140px; background-position: -200px $nav_v}
+		#nav-3 { width: 140px; background-position: -350px $nav_v}
+
+		#nav-1:hover, .active #nav-1 { background-position: 0 $nav_v2; }
+		#nav-2:hover, .active #nav-2 { background-position: -200px $nav_v2; }
+		#nav-3:hover, .active #nav-3{ background-position: -350px $nav_v2; }
+	}
+}
+body.home header nav { display:none; }
+
+footer { position: fixed; top: auto; bottom: 0; width: 100%; background: url('../img/bg-footer.png') no-repeat center top; height: 110px;  
+	.btn { position: absolute; left: 50%; bottom: 45px; }
+	.appstore { margin-left: 173px; }
+	.googleplay { margin-left: 335px; }	
+	h2 { position: absolute; font-family: 'JS Noklae'; font-size: em(23); text-align: center; text-shadow: 0 1px 0 rgba(7,7,7,.75); color: #fff; line-height: .8; left: 50%; font-weight: 400;top: 3px; margin-left:58px;  }
+	
+}
+#copyright { color:#fff; font-size:12px; position: absolute; left:50%; margin: 0; margin-left: -460px; top: auto; bottom: 10px; }
+
+main { width: 100%; height: 100%; position: relative; min-height: 600px; }
+
+
+// Home Page
+body.home { background: url('../img/bg-body-home.jpg');
+	.point { position: absolute; left: 50%; top: 50%;  }
+}
+#world-salads_friend { margin-left: -75px; margin-top: -75px;}
+
+// Friend Page
+body.friend { background-image: url('../img/bg-body-friend.jpg'); background-position: center bottom; 
+
+	main:before { content: ''; width: 400px; height: 514px; display: block; background: url('../img/home-jaja.png') no-repeat; position: absolute; left: 50%; margin-left: -400px; top: auto; bottom: 250px; z-index: -1; }
+	footer:before { content: ''; width: 812px; height: 147px; background: url('../img/leaf.png') no-repeat; position: absolute; z-index: -1; top: auto; left: 50%; margin-left: -200px; bottom: 89px; }
+}  
+

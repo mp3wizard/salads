@@ -98,12 +98,13 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-    *:focus { outline: none; }
+    a:focus, button:focus { outline: none; }
     @import "_font";
+    @import "bourbon/bourbon";
     @import "variable";
     @import "vendor/_royalslider";
     @import "vendor/_rs-default";
-    @import "bourbon/bourbon";
+
     @import "customize";
 
 

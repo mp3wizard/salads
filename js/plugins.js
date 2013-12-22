@@ -22,3 +22,12 @@
 }());
 
 // Place any jQuery/helper plugins in here.
+jQuery(document).ready(function($) {
+    $(".royalSlider").royalSlider({
+        controlNavigation: false,
+        transitionType: 'fade',
+        transitionSpeed: 300,
+        keyboardNavEnabled: true,
+        arrowsNavAutoHide: false
+    });  
+});

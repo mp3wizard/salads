@@ -1,11 +1,15 @@
+
 @import "neat/neat";
 html, body { width: 100%; height: 100%; }
 body { font-family: Helvetica, Arial; background-repeat: no-repeat; background-position: center center }
-header { position: fixed; left: 0; right: 0; top:auto; bottom: 240px; z-index: 3;
+
+
+footer { position: fixed; top: auto; bottom: 0; width: 100%; background: url('../img/bg-footer.png') no-repeat center bottom; height: $h-footer; z-index: 2;
+
 	h1 { margin: 0; }
-	h1 a { width: 254px; height: 143px; display: block; text-indent: -1000em; background: url('../img/logo.png') no-repeat; margin-left: -468px; left: 50%; position: absolute; top: 53px; }
-	nav { position: absolute; left: 50%; margin-left: -120px; top: 65px;
-		ul { list-style: none; margin: 0; padding: 0; }
+	h1 a { width: 254px; height: 143px; display: block; text-indent: -1000em; background: url('../img/logo.png') no-repeat; margin-left: -468px; left: 50%; position: absolute; top: -78px; z-index: 3; }
+	nav { position: absolute;top: -126px; width: 100%; height: 150px; overflow: hidden; z-index: 2;
+		ul { list-style: none; margin: 0; padding: 0; left: 50%; margin-left: -120px; position: absolute; top: 60px; }
 		li { display: inline; }
 		li a { display: block; height: 50px; float: left; margin-left: 10px; background: url('../img/nav.png'); text-indent: -1000em;  }
 		$nav_v: 7px;
@@ -17,32 +21,76 @@ header { position: fixed; left: 0; right: 0; top:auto; bottom: 240px; z-index: 3
 		#nav-1:hover, .active #nav-1 { background-position: 0 $nav_v; }
 		#nav-2:hover, .active #nav-2 { background-position: -200px $nav_v2; }
 		#nav-3:hover, .active #nav-3{ background-position: -350px $nav_v2; }
-	}
-}
-body.home header nav { display:none; }
-
-footer { position: fixed; top: auto; bottom: 0; width: 100%; background: url('../img/bg-footer.png') no-repeat center top; height: 110px;  
+	}  
 	.btn { position: absolute; left: 50%; bottom: 45px; }
 	.appstore { margin-left: 173px; }
 	.googleplay { margin-left: 335px; }	
 	h2 { position: absolute; font-family: 'JS Noklae'; font-size: em(23); text-align: center; text-shadow: 0 1px 0 rgba(7,7,7,.75); color: #fff; line-height: .8; left: 50%; font-weight: 400;top: 3px; margin-left:58px;  }
+	@include media(max-height $h-min-home) {
+		position: relative;
+	} 
 	
 }
 #copyright { color:#fff; font-size:12px; position: absolute; left:50%; margin: 0; margin-left: -460px; top: auto; bottom: 10px; }
 
-main { width: 100%; height: 100%; position: relative; min-height: 600px; }
+main { width: 100%; height: 100%; z-index: 1; position: relative; 
+	@include media(max-height $h-min-home) {
+			height: $h-min-home - $h-footer;
+		} 
+}
 
 
-// Home Page
+// Start Home
 body.home { background-image: url('../img/world/bg-body.jpg');
 	.point { position: absolute; left: 50%; top: 50%;  }
+	main {  
+		@include media(max-height $h-min-home) {
+			height: $h-min-home - $h-footer;
+		} 
+	}
+	footer {
+		nav { display:none; }
+		@include media(max-height $h-min-home) {
+			position: relative;
+		} 
+	}
 }
-#world-salads_friend { margin-left: -75px; margin-top: -75px;}
+#world-salads_friend { margin-left: -80px; margin-top: -75px;
+	@include media(max-height $h-min-home) {
+		
+	}
+}
+// End Home
 
-// Friend Page
-body.friend { background-image: url('../img/friend/bg-body-friend.jpg'); background-position: center bottom; 
 
+// Start Friend
+body.friend { background-image: url('../img/friend/bg-body-friend.jpg'); background-position: center bottom; height:auto;
+	main { min-height:620px;}
 	main:before { content: ''; width: 400px; height: 514px; display: block; background: url('../img/friend/home-jaja.png') no-repeat; position: absolute; left: 50%; margin-left: -400px; top: auto; bottom: 250px; z-index: -1; }
-	footer:before { content: ''; width: 812px; height: 147px; background: url('../img/friend/leaf.png') no-repeat; position: absolute; z-index: -1; top: auto; left: 50%; margin-left: -200px; bottom: 89px; }
+	
+	nav:before { content: ''; width: 812px; height: 147px; background: url('../img/friend/leaf.png') no-repeat; position: absolute; z-index: -1; top: auto; left: 50%; margin-left: -200px; top: 0; }
 }  
+// End Friend
 
+// Start RoyalSlider
+.royalSlider { position: absolute;left: 50%; margin-left: -($w-slider / 2);  
+	//top: 50%; margin-top: -380px;
+	bottom: 100px;
+	@include media(max-height $h-min-home) {
+		bottom: 10px;
+	} 
+}
+
+.rsDefault .rsOverflow, .rsDefault .rsSlide, .rsDefault .rsVideoFrameHolder, .rsDefault .rsThumbs { background: transparent; }
+.rsDefault .rsArrow { width: 110px; }
+.rsDefault.rsHor .rsArrowRight .rsArrowIcn { background: url('../img/friend/btn-slide_right.png') no-repeat center center; width: 84px; height: 171px; margin-left: -42px; margin-top: 25px; }
+.rsDefault.rsHor .rsArrowLeft .rsArrowIcn { }
+figure {padding-top: 80px; }
+
+.rsImg { z-index: 2; position: relative; }
+.rsABlock { background: url('../img/friend/balloon1.png'); width: 243px; height: 256px; top: 20px; left: 50%; font-size: 13px;  margin-left: -100px; z-index: 1;
+	img { display: block; margin-bottom: 10px; }
+	p { margin: 0 0 10px 0; padding: 20px 5px 0 15px; }  
+	a { display: block; position: absolute; width: 21px; height: 19px; background: url('../img/friend/btn-close_balloon.png'); text-indent: -1000em; right: 25px; top: 25px; position: absolute; }
+}
+// End RoyalSlider

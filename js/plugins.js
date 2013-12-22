@@ -28,6 +28,7 @@ jQuery(document).ready(function($) {
         transitionType: 'fade',
         transitionSpeed: 300,
         keyboardNavEnabled: true,
-        arrowsNavAutoHide: false
+        arrowsNavAutoHide: false,
+        imageScaleMode: 'none'
     });  
 });

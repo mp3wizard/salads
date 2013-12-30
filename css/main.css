@@ -1192,44 +1192,37 @@ main {
     main {
       height: 33.125em; } }
 
-body.home {
+.home body {
   background-image: url("../img/world/bg-body.jpg"); }
-  body.home .point {
+  .home body .point {
     position: absolute;
     left: 50%;
     top: 50%; }
   @media screen and (max-height: 40em) {
-    body.home main {
+    .home body main {
       height: 33.125em; } }
-  body.home footer nav {
+  .home body footer nav {
     display: none; }
   @media screen and (max-height: 40em) {
-    body.home footer {
+    .home body footer {
       position: relative; } }
 
 #world-salads_friend {
   margin-left: -80px;
   margin-top: -75px; }
 
-body.friend {
-  background-image: url("../img/friend/bg-body-friend.jpg");
+@media screen and (max-height: 40em) {
+  .friend {
+    height: auto; } }
+
+.friend body {
+  background-image: url("../img/friend/bg-body.jpg");
   background-position: center bottom;
-  height: auto; }
-  body.friend main {
+  height: auto;
+  background-color: #9cb94c; }
+  .friend body main {
     min-height: 620px; }
-  body.friend main:before {
-    content: '';
-    width: 400px;
-    height: 514px;
-    display: block;
-    background: url("../img/friend/home-jaja.png") no-repeat;
-    position: absolute;
-    left: 50%;
-    margin-left: -393px;
-    top: auto;
-    bottom: 254px;
-    z-index: -1; }
-  body.friend nav:before {
+  .friend body nav:before {
     content: '';
     width: 812px;
     height: 147px;
@@ -1249,13 +1242,10 @@ body.friend {
   bottom: 100px; }
   @media screen and (max-height: 40em) {
     .royalSlider {
-      bottom: 10px; } }
+      top: 15px; } }
 
 .rsDefault .rsOverflow, .rsDefault .rsSlide, .rsDefault .rsVideoFrameHolder, .rsDefault .rsThumbs {
   background: transparent; }
-
-.rsOverflow, .rsSlide {
-  overflow: visible; }
 
 .rsDefault .rsArrow {
   width: 110px; }
@@ -1277,12 +1267,17 @@ body.friend {
   margin-left: -47px;
   margin-top: 32px; }
 
-figure {
-  padding-top: 80px; }
+.rsContent {
+  text-align: center; }
 
-.rsImg {
-  z-index: 2;
+figure {
+  padding-top: 185px;
+  display: inline-block;
   position: relative; }
+  figure > img {
+    z-index: 2;
+    position: relative;
+    vertical-align: bottom; }
 
 .rsABlock {
   background: url("../img/friend/balloon1.png");
@@ -1293,7 +1288,8 @@ figure {
   font-size: 13px;
   margin-left: -40px;
   z-index: 1;
-  line-height: 1.3; }
+  line-height: 1.3;
+  text-align: left; }
   .rsABlock img {
     display: block;
     margin-bottom: 10px; }
@@ -1311,35 +1307,43 @@ figure {
     top: 25px;
     position: absolute; }
 
-.jaja .rsImg {
-  top: -33px;
-  left: 72px; }
+.rsContainer > .rsSlide:nth-child(2) figure {
+  top: 50px; }
+.rsContainer > .rsSlide:nth-child(3) figure {
+  top: -10px; }
+.rsContainer > .rsSlide:nth-child(4) figure {
+  top: -10px; }
 
-.sasa .rsImg {
-  top: -5px;
-  left: 300px; }
-.sasa .rsABlock {
-  margin-left: 175px;
-  z-index: 3; }
+.sasa {
+  margin: 0 10px 0 50px; }
 
-.homma .rsImg {
-  top: 8px;
-  left: 72px; }
-.homma .rsABlock {
-  margin-left: -36px; }
+.dindin {
+  margin: 0 60px 0 120px; }
+  .dindin > img {
+    height: 260px; }
 
-.fu .rsImg {
-  top: -24px;
-  left: 295px; }
-.fu .rsABlock {
-  margin-left: 140px;
-  margin-top: -50px; }
+.supernode {
+  margin: 0 80px 0 0; }
+  .supernode > img {
+    height: 220px; }
 
-.dindin .rsImg {
-  top: -32px;
-  left: 80px; }
-.dindin .rsABlock {
-  margin-left: -4px; }
+.punpun > img {
+  height: 260px; }
+
+.joopjip {
+  margin-right: 80px; }
+
+.fu > img {
+  position: relative;
+  top: 10px; }
+
+.dr_vann {
+  margin-right: 20px; }
+  .dr_vann > img {
+    height: 270px; }
+
+.momelon > img {
+  height: 320px; }
 
 /* ==========================================================================
    Helper classes

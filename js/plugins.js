@@ -25,7 +25,7 @@
 jQuery(document).ready(function($) {
     $(".royalSlider").royalSlider({
         controlNavigation: false,
-        transitionType: 'fade',
+        transitionType: 'slide',
         transitionSpeed: 300,
         keyboardNavEnabled: true,
         arrowsNavAutoHide: false,

@@ -4,7 +4,7 @@ html, body { width: 100%; height: 100%; }
 body { font-family: Helvetica, Arial; background-repeat: no-repeat; background-position: center center }
 
 
-footer { position: fixed; top: auto; bottom: 0; width: 100%; background: url('../img/bg-footer.png') no-repeat center bottom; height: $h-footer; z-index: 2;
+footer { position: fixed; top: auto; bottom: 0; width: 100%; background: url('../img/bg-footer.png') no-repeat center bottom; height: $h-footer; z-index: 2; 
 
 	h1 { margin: 0; }
 	h1 a { width: 254px; height: 143px; display: block; text-indent: -1000em; background: url('../img/logo.png') no-repeat; margin-left: -468px; left: 50%; position: absolute; top: -78px; z-index: 3; }
@@ -35,13 +35,13 @@ footer { position: fixed; top: auto; bottom: 0; width: 100%; background: url('..
 
 main { width: 100%; height: 100%; 
 	@include media(max-height $h-min-home) {
-			height: $h-min-home - $h-footer;
-		} 
+		height: $h-min-home - $h-footer;
+	} 
 }
 
 
 // Start Home
-body.home { background-image: url('../img/world/bg-body.jpg');
+.home body { background-image: url('../img/world/bg-body.jpg');
 	.point { position: absolute; left: 50%; top: 50%;  }
 	main {  
 		@include media(max-height $h-min-home) {
@@ -60,13 +60,21 @@ body.home { background-image: url('../img/world/bg-body.jpg');
 
 
 // Start Friend
-body.friend { background-image: url('../img/friend/bg-body-friend.jpg'); background-position: center bottom; height:auto;
+.friend { 
+	@include media(max-height $h-min-home) { 
+		height: auto;
+	}
+}
+.friend body{ background-image: url('../img/friend/bg-body.jpg'); background-position: center bottom; height:auto;
+ 	background-color: #9cb94c;
 	main { min-height:620px;}
-	main:before { content: ''; width: 400px; height: 514px; display: block; background: url('../img/friend/home-jaja.png') no-repeat; position: absolute; left: 50%; margin-left: -393px; top: auto; bottom: 254px; z-index: -1; }
+	// main:before { content: ''; width: 400px; height: 514px; display: block; background: url('../img/friend/home-jaja.png') no-repeat; position: absolute; left: 50%; margin-left: -393px; top: auto; bottom: 254px; z-index: -1; }
 	
 	nav:before { content: ''; width: 812px; height: 147px; background: url('../img/friend/leaf.png') no-repeat; position: absolute; z-index: -1; top: auto; left: 50%; margin-left: -200px; top: 0; }
+	@include media(max-height $h-min-home) {
+		
+	}
 }  
-
 // End Friend
 
 // Start RoyalSlider
@@ -74,45 +82,56 @@ body.friend { background-image: url('../img/friend/bg-body-friend.jpg'); backgro
 	//top: 50%; margin-top: -380px;
 	bottom: 100px;
 	@include media(max-height $h-min-home) {
-		bottom: 10px;
+		top: 15px;
 	} 
 }
 
 .rsDefault .rsOverflow, .rsDefault .rsSlide, .rsDefault .rsVideoFrameHolder, .rsDefault .rsThumbs { background: transparent; }
 
-.rsOverflow, .rsSlide { overflow: visible; }
+// .rsOverflow, .rsSlide { overflow: visible; }
 
 .rsDefault .rsArrow { width: 110px; }
 .rsDefault .rsArrowDisabled .rsArrowIcn { opacity: 1;  }
 .rsDefault.rsHor .rsArrowRight .rsArrowIcn { background: url('../img/friend/btn-slide_right.png') no-repeat center center; width: 84px; height: 171px; margin-left: -42px; margin-top: 30px; }
 .rsDefault.rsHor .rsArrowLeft .rsArrowIcn { background: url('../img/friend/btn-slide_left.png') no-repeat center center; width: 109px; height: 171px; margin-left: -47px; margin-top: 32px; }
-
-figure {padding-top: 80px; }
-
-.rsImg { z-index: 2; position: relative; }
-.rsABlock { background: url('../img/friend/balloon1.png'); width: 243px; height: 256px; top: 15px; left: 50%; font-size: 13px;  margin-left: -40px; z-index: 1; line-height: 1.3;
+.rsContent { text-align:center; }
+figure {padding-top: 185px; display: inline-block; position: relative;
+	>img { z-index: 2; position: relative; vertical-align: bottom; }
+}
+.rsABlock { background: url('../img/friend/balloon1.png'); width: 243px; height: 256px; top: 15px; left: 50%; font-size: 13px;  margin-left: -40px; z-index: 1; line-height: 1.3; text-align: left;
 	img { display: block; margin-bottom: 10px; }
 	p { margin: 0 0 10px 0; padding: 15px 5px 0 25px; }  
 	a { display: block; position: absolute; width: 21px; height: 19px; background: url('../img/friend/btn-close_balloon.png'); text-indent: -1000em; right: 25px; top: 25px; position: absolute; }
 }
+.rsContainer { 
+	>.rsSlide:nth-child(2) figure { top: 50px; }
+	>.rsSlide:nth-child(3) figure { top: -10px; }
+	>.rsSlide:nth-child(4) figure { top: -10px; }
+}
 // End RoyalSlider
+
 .jaja { 
-	.rsImg { top: -33px; left: 72px; }
-	.rsABlock { }
 }
-.sasa { 
-	.rsImg { top: -5px; left: 300px; }
-	.rsABlock { margin-left: 175px; z-index: 3; }
+.sasa { margin: 0 10px 0 50px;
 }
-.homma { 
-	.rsImg { top: 8px; left: 72px; }
-	.rsABlock { margin-left: -36px; }
+.dindin { margin: 0 60px 0 120px;
+	>img { height: 260px;}
+}
+.supernode { margin: 0 80px 0 0;
+	>img { height: 220px; }
+}
+.punpun { 
+	>img { height: 260px; }
+}
+.joopjip { margin-right: 80px;
+
 }
 .fu { 
-	.rsImg { top: -24px; left: 295px; }
-	.rsABlock { margin-left: 140px; margin-top: -50px; }
+	>img { position: relative; top: 10px; }
 }
-.dindin { 
-	.rsImg { top: -32px; left: 80px; }
-	.rsABlock { margin-left: -4px;}
+.dr_vann { margin-right: 20px; 
+	>img { height: 270px; }
+}
+.momelon { 
+	>img { height: 320px; }
 }

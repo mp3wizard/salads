@@ -22,28 +22,3 @@
 }());
 
 // Place any jQuery/helper plugins in here.
-jQuery(document).ready(function($) {
-    $(".royalSlider").royalSlider({
-        controlNavigation: false,
-        transitionType: 'slide',
-        transitionSpeed: 300,
-        keyboardNavEnabled: true,
-        arrowsNavAutoHide: false,
-        imageScaleMode: 'none',
-        navigateByClick: false,
-        block: {
-            // animated blocks options go gere
-            moveEffect: 'bottom'
-        }
-    });
-
-    var slider = $(".royalSlider").data('royalSlider');
-    slider.ev.on('rsAfterInit', function(event) {
-        $('figcaption a').each(function(){ 
-            $(this).click(function(){ 
-                alert(555)
-                return false;
-            })
-        })
-    });  
-});

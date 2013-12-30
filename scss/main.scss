@@ -101,6 +101,8 @@ textarea {
     a:focus, button:focus { outline: none; }
     @import "_font";
     @import "bourbon/bourbon";
+    @import "neat/neat";
+    @import "mixin/opacity";
     @import "variable";
     @import "vendor/_royalslider";
     @import "vendor/_rs-default";

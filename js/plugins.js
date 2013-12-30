@@ -29,6 +29,21 @@ jQuery(document).ready(function($) {
         transitionSpeed: 300,
         keyboardNavEnabled: true,
         arrowsNavAutoHide: false,
-        imageScaleMode: 'none'
+        imageScaleMode: 'none',
+        navigateByClick: false,
+        block: {
+            // animated blocks options go gere
+            moveEffect: 'bottom'
+        }
+    });
+
+    var slider = $(".royalSlider").data('royalSlider');
+    slider.ev.on('rsAfterInit', function(event) {
+        $('figcaption a').each(function(){ 
+            $(this).click(function(){ 
+                alert(555)
+                return false;
+            })
+        })
     });  
 });

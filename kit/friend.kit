@@ -154,27 +154,26 @@
                 }).data('royalSlider');
 
                 $('figure>img').each(function(){ 
-                        $(this).click(function(){ 
-                            $('figcaption').removeClass('show');
-                            $('figcaption.show').addClass('hide');
-                            $(this).next('figcaption').addClass('show');
-                            return false;
-                        })
+                    $(this).click(function(){ 
+                        $('figcaption').removeClass('show');
+                        $('figcaption.show').addClass('hide');
+                        $(this).next('figcaption').addClass('show');
+                        return false;
                     })
-                    $('figcaption a').each(function(){ 
-                        $(this).click(function(){ 
-                            $('figcaption').removeClass('show');
-                            $(this).parent('figcaption').addClass('hide');
-                            setTimeout(function() {
-                                $('figcaption').removeClass('hide');
-                            }, 1000)
-                            return false;
-                        })
+                })
+                $('figcaption a').each(function(){ 
+                    $(this).click(function(e){ 
+                        $('figcaption').removeClass('show');
+                        $(this).parent('figcaption').addClass('hide');
+                        setTimeout(function() {
+                            $('figcaption').removeClass('hide');
+                        }, 1000)
+                        e.preventDefault()
                     })
-
-                slider.ev.on('rsSlideClick', function(event) {
-                    
-                }); 
+                })
+                $('footer nav a').click(function(e) { 
+                    e.preventDefault()
+                })
 
             });
         </script>

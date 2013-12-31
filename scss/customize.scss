@@ -95,7 +95,8 @@ main { width: 100%; height: 100%;
 .rsDefault .rsArrowDisabled .rsArrowIcn { opacity: 1;  }
 .rsDefault.rsHor .rsArrowRight .rsArrowIcn { background: url('../img/friend/btn-slide_right.png') no-repeat center center; width: 84px; height: 171px; margin-left: -42px; margin-top: 30px; }
 .rsDefault.rsHor .rsArrowLeft .rsArrowIcn { background: url('../img/friend/btn-slide_left.png') no-repeat center center; width: 109px; height: 171px; margin-left: -47px; margin-top: 32px; }
-.rsContent { text-align:center; }
+.rsContent { text-align:center;  }
+.rsContainer>.rsSlide:first-child .rsContent { opacity: 0;}
 figure {padding-top: 185px; display: inline-block; position: relative;
 	>img { z-index: 2; position: relative; vertical-align: bottom; }
 }
@@ -106,8 +107,15 @@ figcaption { background: url('../img/friend/balloon1.png'); width: 243px; height
 	a { display: block; position: absolute; width: 21px; height: 19px; background: url('../img/friend/btn-close_balloon.png'); text-indent: -1000em; right: 25px; top: 25px; position: absolute; }
 }
 figcaption.balloon2 { background-image: url('../img/friend/balloon2.png'); height: 260px;}
+figcaption.balloon3 { background-image: url('../img/friend/balloon3.png'); height: 251px; width: 266px;
+	p { padding-left: 55px}
+}
 figcaption.show { @include animation(ballon .2s ease-in both); }
 figcaption.hide { @include animation(ballon-back .1s ease-out both); }
+
+figcaption.balloon3.show { @include animation(ballon-left .2s ease-in both); }
+figcaption.balloon3.hide { @include animation(ballon-left-back .1s ease-out both); }
+
 @include keyframes(ballon) {
 	0% {
 		@include opacity(0);
@@ -121,6 +129,20 @@ figcaption.hide { @include animation(ballon-back .1s ease-out both); }
 		@include opacity(1);
 	}
 }
+
+@include keyframes(ballon-left) {
+	0% {
+		@include opacity(0);
+		@include transform(translateX(-20px));
+	}
+	50% { 
+		@include opacity(1);
+	}
+	100% {
+		@include transform(translateX(0));
+		@include opacity(1);
+	}
+}
 @include keyframes(ballon-back) {
 	0% {
 		@include opacity(1);
@@ -128,6 +150,16 @@ figcaption.hide { @include animation(ballon-back .1s ease-out both); }
 	}
 	100% {
 		@include transform(translateY(20px));
+		@include opacity(0);
+	}
+}
+@include keyframes(ballon-left-back) {
+	0% {
+		@include opacity(1);
+		@include transform(translateY(0));
+	}
+	100% {
+		@include transform(translateX(-20px));
 		@include opacity(0);
 	}
 }
@@ -194,4 +226,16 @@ figcaption.hide { @include animation(ballon-back .1s ease-out both); }
 	figcaption { margin: 15px 0 0 0;
 		img { width: 130px!important; height: 40px!important;}
 	}
+}
+.munbear { 
+	>img { position: relative; top: -190px; }
+	figcaption { margin: 0 0 0 250px; }
+}
+.mapa_mamoo { 
+	>img { }  
+	figcaption { margin: -20px 0 0 150px; z-index: 1; }
+}
+.pubbit {  top: 20px!important;
+	>img { top: 90px; }
+	figcaption { margin: 0 0 0 -60px; }
 }

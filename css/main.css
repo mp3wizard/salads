@@ -1276,6 +1276,9 @@ main {
 .rsContent {
   text-align: center; }
 
+.rsContainer > .rsSlide:first-child .rsContent {
+  opacity: 0; }
+
 figure {
   padding-top: 185px;
   display: inline-block;
@@ -1326,6 +1329,13 @@ figcaption.balloon2 {
   background-image: url("../img/friend/balloon2.png");
   height: 260px; }
 
+figcaption.balloon3 {
+  background-image: url("../img/friend/balloon3.png");
+  height: 251px;
+  width: 266px; }
+  figcaption.balloon3 p {
+    padding-left: 55px; }
+
 figcaption.show {
   -webkit-animation: ballon 0.2s ease-in both;
   -moz-animation: ballon 0.2s ease-in both;
@@ -1335,6 +1345,16 @@ figcaption.hide {
   -webkit-animation: ballon-back 0.1s ease-out both;
   -moz-animation: ballon-back 0.1s ease-out both;
   animation: ballon-back 0.1s ease-out both; }
+
+figcaption.balloon3.show {
+  -webkit-animation: ballon-left 0.2s ease-in both;
+  -moz-animation: ballon-left 0.2s ease-in both;
+  animation: ballon-left 0.2s ease-in both; }
+
+figcaption.balloon3.hide {
+  -webkit-animation: ballon-left-back 0.1s ease-out both;
+  -moz-animation: ballon-left-back 0.1s ease-out both;
+  animation: ballon-left-back 0.1s ease-out both; }
 
 @-webkit-keyframes ballon {
   0% {
@@ -1432,6 +1452,102 @@ figcaption.hide {
     -khtml-opacity: 1;
     opacity: 1; } }
 
+@-webkit-keyframes ballon-left {
+  0% {
+    filter: alpha(opactiy=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+    -webkit-transform: translateX(-20px); }
+
+  50% {
+    filter: alpha(opactiy=100);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1; }
+
+  100% {
+    -webkit-transform: translateX(0);
+    filter: alpha(opactiy=100);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1; } }
+
+@-moz-keyframes ballon-left {
+  0% {
+    filter: alpha(opactiy=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+    -moz-transform: translateX(-20px); }
+
+  50% {
+    filter: alpha(opactiy=100);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1; }
+
+  100% {
+    -moz-transform: translateX(0);
+    filter: alpha(opactiy=100);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1; } }
+
+@-o-keyframes ballon-left {
+  0% {
+    filter: alpha(opactiy=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+    -o-transform: translateX(-20px); }
+
+  50% {
+    filter: alpha(opactiy=100);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1; }
+
+  100% {
+    -o-transform: translateX(0);
+    filter: alpha(opactiy=100);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1; } }
+
+@keyframes ballon-left {
+  0% {
+    filter: alpha(opactiy=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+    transform: translateX(-20px); }
+
+  50% {
+    filter: alpha(opactiy=100);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1; }
+
+  100% {
+    transform: translateX(0);
+    filter: alpha(opactiy=100);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1; } }
+
 @-webkit-keyframes ballon-back {
   0% {
     filter: alpha(opactiy=100);
@@ -1494,6 +1610,74 @@ figcaption.hide {
 
   100% {
     transform: translateY(20px);
+    filter: alpha(opactiy=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0; } }
+
+@-webkit-keyframes ballon-left-back {
+  0% {
+    filter: alpha(opactiy=100);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1;
+    -webkit-transform: translateY(0); }
+
+  100% {
+    -webkit-transform: translateX(-20px);
+    filter: alpha(opactiy=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0; } }
+
+@-moz-keyframes ballon-left-back {
+  0% {
+    filter: alpha(opactiy=100);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1;
+    -moz-transform: translateY(0); }
+
+  100% {
+    -moz-transform: translateX(-20px);
+    filter: alpha(opactiy=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0; } }
+
+@-o-keyframes ballon-left-back {
+  0% {
+    filter: alpha(opactiy=100);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1;
+    -o-transform: translateY(0); }
+
+  100% {
+    -o-transform: translateX(-20px);
+    filter: alpha(opactiy=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0; } }
+
+@keyframes ballon-left-back {
+  0% {
+    filter: alpha(opactiy=100);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1;
+    transform: translateY(0); }
+
+  100% {
+    transform: translateX(-20px);
     filter: alpha(opactiy=0);
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     -moz-opacity: 0;
@@ -1593,6 +1777,23 @@ figcaption.hide {
   .momelon figcaption img {
     width: 130px !important;
     height: 40px !important; }
+
+.munbear > img {
+  position: relative;
+  top: -190px; }
+.munbear figcaption {
+  margin: 0 0 0 250px; }
+
+.mapa_mamoo figcaption {
+  margin: -20px 0 0 150px;
+  z-index: 1; }
+
+.pubbit {
+  top: 20px !important; }
+  .pubbit > img {
+    top: 90px; }
+  .pubbit figcaption {
+    margin: 0 0 0 -60px; }
 
 /* ==========================================================================
    Helper classes

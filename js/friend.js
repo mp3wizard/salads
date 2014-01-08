@@ -2,7 +2,7 @@ jQuery(document).ready(function($) {
     
     //$('.royalSlider').load('kit/friend-list.kit');
     $('figure>img').each(function(){
-        $(this).click(function(e){
+        $(this).on('touch mouseover', function(e){
             $('figcaption').removeClass('show');
             $('figcaption.show').addClass('hide');
             $(this).next('figcaption').addClass('show');
@@ -11,7 +11,7 @@ jQuery(document).ready(function($) {
     });
     
     $('figcaption a').each(function(){
-        $(this).click(function(e){
+        $(this).on('click', function(e){
             $('figcaption').removeClass('show');
             $(this).parent('figcaption').addClass('hide');
             setTimeout(function() {
@@ -36,8 +36,29 @@ jQuery(document).ready(function($) {
         keyboardNavEnabled: true,
         arrowsNavAutoHide: false,
         imageScaleMode: 'none',
+        numImagesToPreload: 7,
         navigateByClick: false
     });
 
-
+    var slider = $(".royalSlider").data('royalSlider');
+    $('#nav-3').on('click touch', function(){
+        slider.goTo(4);
+        $('#nav-2').parent('li').removeClass('active');
+        $(this).parent('li').addClass('active');
+    });
+    $('#nav-2').on('click touch', function(){
+        slider.goTo(0);
+        $('#nav-3').parent('li').removeClass('active');
+        $(this).parent('li').addClass('active');
+    });
+    slider.ev.on('rsAfterSlideChange', function(event){
+        console.log(slider.currSlideId);
+        if (slider.currSlideId > 3){
+            $('#nav-2').parent('li').removeClass('active'); 
+            $('#nav-3').parent('li').addClass('active');
+        } else {
+            $('#nav-3').parent('li').removeClass('active');
+            $('#nav-2').parent('li').addClass('active');
+        }
+    });
 });

@@ -1090,13 +1090,29 @@ body {
   background-repeat: no-repeat;
   background-position: center center; }
 
+#btnBack {
+  display: block;
+  position: fixed;
+  left: 50%;
+  top: 0;
+  background-image: url("../img/btn-back.png");
+  width: 78px;
+  height: 98px;
+  text-indent: -1000em;
+  z-index: 99;
+  margin-left: -455px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+    #btnBack {
+      background-image: url("../img/btn-back@2x.png");
+      background-size: 78px 98px; } }
+
 footer {
   position: fixed;
   top: auto;
   bottom: 0;
   width: 100%;
   background: url("../img/bg-footer.png") no-repeat center bottom;
-  height: 6.875em;
+  height: 5.625em;
   z-index: 2; }
   footer h1 {
     margin: 0; }
@@ -1127,7 +1143,7 @@ footer {
       margin: 0;
       padding: 0;
       left: 50%;
-      margin-left: -163px;
+      margin-left: -170px;
       position: absolute;
       top: 63px; }
     footer nav li {
@@ -1158,11 +1174,11 @@ footer {
   footer .btn {
     position: absolute;
     left: 50%;
-    bottom: 45px; }
+    bottom: 14px; }
   footer .appstore {
-    margin-left: 173px; }
+    margin-left: 110px; }
   footer .googleplay {
-    margin-left: 335px; }
+    margin-left: 275px; }
   footer h2 {
     position: absolute;
     font-family: 'JS Noklae';
@@ -1173,9 +1189,14 @@ footer {
     line-height: .8;
     left: 50%;
     font-weight: 400;
-    top: 3px;
-    margin-left: 58px; }
-  @media screen and (max-height: 40.625em) {
+    top: 14px;
+    margin-left: -20px;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-font-smoothing: subpixel-antialiased;
+    -ms-font-smoothing: subpixel-antialiased;
+    font-smoothing: subpixel-antialiased;
+    letter-spacing: .5px; }
+  @media screen and (max-height: 42.1875em) {
     footer {
       position: relative; } }
 
@@ -1192,9 +1213,9 @@ footer {
 main {
   width: 100%;
   height: 100%; }
-  @media screen and (max-height: 40.625em) {
+  @media screen and (max-height: 42.1875em) {
     main {
-      height: 33.75em; } }
+      height: 36.5625em; } }
 
 .home body {
   background-image: url("../img/world/bg-body.jpg"); }
@@ -1202,12 +1223,14 @@ main {
     position: absolute;
     left: 50%;
     top: 50%; }
-  @media screen and (max-height: 40.625em) {
+  .home body #btnBack {
+    display: none; }
+  @media screen and (max-height: 42.1875em) {
     .home body main {
-      height: 33.75em; } }
+      height: 36.5625em; } }
   .home body footer nav {
     display: none; }
-  @media screen and (max-height: 40.625em) {
+  @media screen and (max-height: 42.1875em) {
     .home body footer {
       position: relative; } }
 
@@ -1215,7 +1238,7 @@ main {
   margin-left: -80px;
   margin-top: -75px; }
 
-@media screen and (max-height: 40.625em) {
+@media screen and (max-height: 42.1875em) {
   .friend {
     height: auto; } }
 
@@ -1244,7 +1267,7 @@ main {
   margin-left: -30.625em;
   z-index: 0;
   bottom: 100px; }
-  @media screen and (max-height: 40.625em) {
+  @media screen and (max-height: 42.1875em) {
     .royalSlider {
       top: 15px; } }
 
@@ -1294,10 +1317,10 @@ figcaption {
   height: 256px;
   top: 15px;
   left: 50%;
-  font-size: 13px;
+  font-size: 12px;
   margin-left: -40px;
   z-index: 1;
-  line-height: 1.3;
+  line-height: 1.25;
   text-align: left;
   position: absolute;
   left: 0;
@@ -1313,7 +1336,9 @@ figcaption {
     margin-bottom: 10px; }
   figcaption p {
     margin: 0 0 10px 0;
-    padding: 15px 5px 0 25px; }
+    padding: 0 15px 0 20px; }
+  figcaption p:first-child {
+    padding-top: 15px; }
   figcaption a {
     display: block;
     position: absolute;
@@ -1692,7 +1717,8 @@ figcaption.balloon3.hide {
   top: -10px; }
 
 .jaja figcaption {
-  margin: 10px 0 0 4px; }
+  margin: 10px 0 0 4px;
+  font-size: 11px; }
   .jaja figcaption img {
     width: 66px !important;
     height: 36px !important; }
@@ -1728,7 +1754,7 @@ figcaption.balloon3.hide {
   .supernode > img {
     height: 220px; }
   .supernode figcaption {
-    margin: -70px 0 0 90px; }
+    margin: -70px 0 0 60px; }
     .supernode figcaption img {
       width: 144px !important;
       height: 49px !important; }
@@ -1745,8 +1771,11 @@ figcaption.balloon3.hide {
 
 .joopjip {
   margin-right: 80px; }
+  .joopjip > img {
+    position: relative;
+    top: 10px; }
   .joopjip figcaption {
-    margin: 15px 0 0 0px; }
+    margin: 25px 0 0 0px; }
     .joopjip figcaption img {
       width: 107px !important;
       height: 45px !important; }
@@ -1763,7 +1792,9 @@ figcaption.balloon3.hide {
 .dr_vann {
   margin-right: 20px; }
   .dr_vann > img {
-    height: 270px; }
+    height: 270px;
+    position: relative;
+    top: 10px; }
   .dr_vann figcaption {
     margin: 15px 0 0 -120px; }
     .dr_vann figcaption img {
@@ -1771,27 +1802,32 @@ figcaption.balloon3.hide {
       height: 31px !important; }
 
 .momelon > img {
-  height: 320px; }
+  height: 320px;
+  position: relative;
+  top: 10px; }
 .momelon figcaption {
-  margin: 15px 0 0 0; }
+  margin: 25px 0 0 0; }
   .momelon figcaption img {
     width: 130px !important;
     height: 40px !important; }
 
 .munbear > img {
   position: relative;
-  top: -190px; }
+  top: -175px; }
 .munbear figcaption {
-  margin: 0 0 0 250px; }
+  margin: 20px 0 0 250px; }
 
+.mapa_mamoo > img {
+  position: relative;
+  top: 75px; }
 .mapa_mamoo figcaption {
-  margin: -20px 0 0 150px;
+  margin: 15px 0 0 150px;
   z-index: 1; }
 
 .pubbit {
   top: 20px !important; }
   .pubbit > img {
-    top: 90px; }
+    top: 70px; }
   .pubbit figcaption {
     margin: 0 0 0 -60px; }
 

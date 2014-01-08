@@ -2,7 +2,7 @@
 html, body { width: 100%; height: 100%; }
 body { font-family: Helvetica, Arial; background-repeat: no-repeat; background-position: center center }
 
-
+#btnBack { display:block; position: fixed; left: 50%; top: 0; @include retina-image('../img/btn-back', 78px 98px); @include size(78px 98px); text-indent: -1000em; z-index: 99; margin-left: -455px; }
 footer { position: fixed; top: auto; bottom: 0; width: 100%; background: url('../img/bg-footer.png') no-repeat center bottom; height: $h-footer; z-index: 2; 
 
 	h1 { margin: 0; }
@@ -10,7 +10,7 @@ footer { position: fixed; top: auto; bottom: 0; width: 100%; background: url('..
 		@include retina-image("../img/logo", 254px 143px);
 	}
 	nav { position: absolute;top: -126px; width: 100%; height: 126px; overflow: hidden; z-index: -1;
-		ul { list-style: none; margin: 0; padding: 0; left: 50%; margin-left: -163px; position: absolute; top: 63px; }
+		ul { list-style: none; margin: 0; padding: 0; left: 50%; margin-left: -170px; position: absolute; top: 63px; }
 		li { display: inline; }
 		li a { display: block; height: 50px; float: left; margin-left: 10px; background: url('../img/nav.png'); text-indent: -1000em;  }
 		$nav_v: 7px;
@@ -23,10 +23,11 @@ footer { position: fixed; top: auto; bottom: 0; width: 100%; background: url('..
 		#nav-2:hover, .active #nav-2 { background-position: -200px $nav_v2; }
 		#nav-3:hover, .active #nav-3{ background-position: -350px $nav_v2; }
 	}  
-	.btn { position: absolute; left: 50%; bottom: 45px; }
-	.appstore { margin-left: 173px; }
-	.googleplay { margin-left: 335px; }	
-	h2 { position: absolute; font-family: 'JS Noklae'; font-size: em(23); text-align: center; text-shadow: 0 1px 0 rgba(7,7,7,.75); color: #fff; line-height: .8; left: 50%; font-weight: 400;top: 3px; margin-left:58px;  }
+	.btn { position: absolute; left: 50%; bottom: 14px; }
+	.appstore { margin-left: 110px; }
+	.googleplay { margin-left: 275px; }	
+	h2 { position: absolute; font-family: 'JS Noklae'; font-size: em(23); text-align: center; text-shadow: 0 1px 0 rgba(7,7,7,.75); color: #fff; line-height: .8; left: 50%; font-weight: 400;top: 14px; margin-left:-20px; @include font-smoothing(subpixel-antialiased); letter-spacing: .5px; }
+	
 	@include media(max-height $h-min-home) {
 		position: relative;
 	} 
@@ -44,6 +45,7 @@ main { width: 100%; height: 100%;
 // Start Home
 .home body { background-image: url('../img/world/bg-body.jpg');
 	.point { position: absolute; left: 50%; top: 50%;  }
+	#btnBack { display: none; }
 	main {  
 		@include media(max-height $h-min-home) {
 			height: $h-min-home - $h-footer;
@@ -100,10 +102,11 @@ main { width: 100%; height: 100%;
 figure {padding-top: 185px; display: inline-block; position: relative;
 	>img { z-index: 2; position: relative; vertical-align: bottom; }
 }
-figcaption { background: url('../img/friend/balloon1.png'); width: 243px; height: 256px; top: 15px; left: 50%; font-size: 13px;  margin-left: -40px; z-index: 1; line-height: 1.3; text-align: left;  position: absolute; left: 0; top: 0; z-index: 15;
+figcaption { background: url('../img/friend/balloon1.png'); width: 243px; height: 256px; top: 15px; left: 50%; font-size: 12px;  margin-left: -40px; z-index: 1; line-height: 1.25; text-align: left;  position: absolute; left: 0; top: 0; z-index: 15;
 	@include opacity(0); 
 	img { display: block; margin-bottom: 10px; }
-	p { margin: 0 0 10px 0; padding: 15px 5px 0 25px; }  
+	p { margin: 0 0 10px 0; padding: 0 15px 0 20px; }  
+	p:first-child { padding-top: 15px; }
 	a { display: block; position: absolute; width: 21px; height: 19px; background: url('../img/friend/btn-close_balloon.png'); text-indent: -1000em; right: 25px; top: 25px; position: absolute; }
 }
 figcaption.balloon2 { background-image: url('../img/friend/balloon2.png'); height: 260px;}
@@ -172,7 +175,7 @@ figcaption.balloon3.hide { @include animation(ballon-left-back .1s ease-out both
 // End RoyalSlider
 
 .jaja {
-	figcaption { margin: 10px 0 0 4px;
+	figcaption { margin: 10px 0 0 4px; font-size: 11px;
 		img { width: 66px!important; height: 36px!important;}
 	} 
 }
@@ -194,7 +197,7 @@ figcaption.balloon3.hide { @include animation(ballon-left-back .1s ease-out both
 }
 .supernode { margin: 0 80px 0 0; z-index: 30;
 	>img { height: 220px; }
-	figcaption { margin: -70px 0 0 90px;
+	figcaption { margin: -70px 0 0 60px;
 		img { width: 144px!important; height: 49px!important;}
 	}
 }
@@ -205,7 +208,8 @@ figcaption.balloon3.hide { @include animation(ballon-left-back .1s ease-out both
 	}
 }
 .joopjip { margin-right: 80px;
-	figcaption { margin: 15px 0 0 0px;
+	>img { position: relative; top: 10px; }
+	figcaption { margin: 25px 0 0 0px;
 		img { width: 107px!important; height: 45px!important;}
 	}
 }
@@ -216,26 +220,26 @@ figcaption.balloon3.hide { @include animation(ballon-left-back .1s ease-out both
 	}
 }
 .dr_vann { margin-right: 20px; 
-	>img { height: 270px; }
+	>img { height: 270px; position: relative; top: 10px; }
 	figcaption { margin: 15px 0 0 -120px;
 		img { width: 169px!important; height: 31px!important;}
 	}
 }
 .momelon { 
-	>img { height: 320px; }
-	figcaption { margin: 15px 0 0 0;
+	>img { height: 320px; position: relative; top: 10px; }
+	figcaption { margin: 25px 0 0 0;
 		img { width: 130px!important; height: 40px!important;}
 	}
 }
 .munbear { 
-	>img { position: relative; top: -190px; }
-	figcaption { margin: 0 0 0 250px; }
+	>img { position: relative; top: -175px; }
+	figcaption { margin: 20px 0 0 250px; }
 }
 .mapa_mamoo { 
-	>img { }  
-	figcaption { margin: -20px 0 0 150px; z-index: 1; }
+	>img { position: relative; top: 75px; }  
+	figcaption { margin: 15px 0 0 150px; z-index: 1; }
 }
 .pubbit {  top: 20px!important;
-	>img { top: 90px; }
+	>img { top: 70px; }
 	figcaption { margin: 0 0 0 -60px; }
 }

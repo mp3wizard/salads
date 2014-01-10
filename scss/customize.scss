@@ -102,7 +102,7 @@ main { width: 100%; height: 100%;
 figure {padding-top: 185px; display: inline-block; position: relative; cursor: pointer!important;
 	>img { z-index: 2; position: relative; vertical-align: bottom; }
 }
-figcaption { background: url('../img/friend/balloon1.png'); width: 243px; height: 256px; top: 15px; left: 50%; font-size: 12px;  margin-left: -40px; z-index: 1; line-height: 1.25; text-align: left;  position: absolute; left: 0; top: 0; z-index: 15;
+figcaption { background: url('../img/friend/balloon1.png'); width: 243px; height: 256px; top: 15px; left: 50%; font-size: 16px;  margin-left: -40px; z-index: 1; line-height: 1.25; text-align: left;  position: absolute; left: 0; top: 0; z-index: 15;
 	@include opacity(0); 
 	img { display: block; margin-bottom: 10px; }
 	p { margin: 0 0 10px 0; padding: 0 15px 0 20px; }  
@@ -175,7 +175,7 @@ figcaption.balloon3.hide { @include animation(ballon-left-back .1s ease-out both
 // End RoyalSlider
 
 .jaja {
-	figcaption { margin: 10px 0 0 4px; font-size: 11px;
+	figcaption { margin: 10px 0 0 4px;
 		img { width: 66px!important; height: 36px!important;}
 	} 
 }
@@ -189,13 +189,13 @@ figcaption.balloon3.hide { @include animation(ballon-left-back .1s ease-out both
 		img { width: 112px!important; height: 33px!important;}
 	}
 }
-.dindin { margin: 50px 60px 0 120px;
+.dindin { margin: 50px 60px 0 30px;
 	>img { height: 260px;}
 	figcaption { margin: -40px 0 0 30px; 
 		img { width: 103px!important; height: 40px!important;}
 	}
 }
-.supernode { margin: 50px 80px 0 0; z-index: 30;
+.supernode { margin: 50px 50px 0 120px; z-index: 30;
 	>img { height: 220px; }
 	figcaption { margin: -70px 0 0 60px;
 		img { width: 144px!important; height: 49px!important;}
@@ -219,13 +219,13 @@ figcaption.balloon3.hide { @include animation(ballon-left-back .1s ease-out both
 		img { width: 40px!important; height: 34px!important;}
 	}
 }
-.dr_vann { margin-right: 20px; margin-top: -10px; 
+.dr_vann { margin-right: 20px; margin-top: 30px; 
 	>img { height: 270px; position: relative; top: 10px; }
 	figcaption { margin: 15px 0 0 -120px;
 		img { width: 169px!important; height: 31px!important;}
 	}
 }
-.momelon { margin-top: -10px;
+.momelon { margin: -10px 40px 0 35px;
 	>img { height: 320px; position: relative; top: 10px; }
 	figcaption { margin: 25px 0 0 0;
 		img { width: 130px!important; height: 40px!important;}
@@ -239,9 +239,9 @@ figcaption.balloon3.hide { @include animation(ballon-left-back .1s ease-out both
 	>img { position: relative; top: 75px; }  
 	figcaption { margin: 15px 0 0 150px; z-index: 1; }
 }
-.pubbit {  top: 20px!important;
-	>img { top: 70px; }
-	figcaption { margin: 0 0 0 -60px; }
+.pubbit { top: 95px; margin: 0 100px 0 40px;
+	>img {  }
+	figcaption { margin: -80px 0 0 -60px; }
 }
 
 //OLD IE

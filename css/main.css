@@ -1318,7 +1318,7 @@ figcaption {
   height: 256px;
   top: 15px;
   left: 50%;
-  font-size: 12px;
+  font-size: 16px;
   margin-left: -40px;
   z-index: 1;
   line-height: 1.25;
@@ -1711,8 +1711,7 @@ figcaption.balloon3.hide {
     opacity: 0; } }
 
 .jaja figcaption {
-  margin: 10px 0 0 4px;
-  font-size: 11px; }
+  margin: 10px 0 0 4px; }
   .jaja figcaption img {
     width: 66px !important;
     height: 36px !important; }
@@ -1733,7 +1732,7 @@ figcaption.balloon3.hide {
     height: 33px !important; }
 
 .dindin {
-  margin: 50px 60px 0 120px; }
+  margin: 50px 60px 0 30px; }
   .dindin > img {
     height: 260px; }
   .dindin figcaption {
@@ -1743,7 +1742,7 @@ figcaption.balloon3.hide {
       height: 40px !important; }
 
 .supernode {
-  margin: 50px 80px 0 0;
+  margin: 50px 50px 0 120px;
   z-index: 30; }
   .supernode > img {
     height: 220px; }
@@ -1789,7 +1788,7 @@ figcaption.balloon3.hide {
 
 .dr_vann {
   margin-right: 20px;
-  margin-top: -10px; }
+  margin-top: 30px; }
   .dr_vann > img {
     height: 270px;
     position: relative;
@@ -1801,7 +1800,7 @@ figcaption.balloon3.hide {
       height: 31px !important; }
 
 .momelon {
-  margin-top: -10px; }
+  margin: -10px 40px 0 35px; }
   .momelon > img {
     height: 320px;
     position: relative;
@@ -1826,11 +1825,10 @@ figcaption.balloon3.hide {
   z-index: 1; }
 
 .pubbit {
-  top: 20px !important; }
-  .pubbit > img {
-    top: 70px; }
+  top: 95px;
+  margin: 0 100px 0 40px; }
   .pubbit figcaption {
-    margin: 0 0 0 -60px; }
+    margin: -80px 0 0 -60px; }
 
 .no-csstransitions figcaption.show {
   filter: alpha(opactiy=100);

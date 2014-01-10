@@ -1305,7 +1305,8 @@ main {
 figure {
   padding-top: 185px;
   display: inline-block;
-  position: relative; }
+  position: relative;
+  cursor: pointer !important; }
   figure > img {
     z-index: 2;
     position: relative;
@@ -1709,13 +1710,6 @@ figcaption.balloon3.hide {
     -khtml-opacity: 0;
     opacity: 0; } }
 
-.rsContainer > .rsSlide:nth-child(2) figure {
-  top: 50px; }
-.rsContainer > .rsSlide:nth-child(3) figure {
-  top: -10px; }
-.rsContainer > .rsSlide:nth-child(4) figure {
-  top: -10px; }
-
 .jaja figcaption {
   margin: 10px 0 0 4px;
   font-size: 11px; }
@@ -1739,7 +1733,7 @@ figcaption.balloon3.hide {
     height: 33px !important; }
 
 .dindin {
-  margin: 0 60px 0 120px; }
+  margin: 50px 60px 0 120px; }
   .dindin > img {
     height: 260px; }
   .dindin figcaption {
@@ -1749,7 +1743,7 @@ figcaption.balloon3.hide {
       height: 40px !important; }
 
 .supernode {
-  margin: 0 80px 0 0;
+  margin: 50px 80px 0 0;
   z-index: 30; }
   .supernode > img {
     height: 220px; }
@@ -1760,7 +1754,8 @@ figcaption.balloon3.hide {
       height: 49px !important; }
 
 .punpun {
-  z-index: 29; }
+  z-index: 29;
+  margin-top: 50px; }
   .punpun > img {
     height: 260px; }
   .punpun figcaption {
@@ -1770,7 +1765,8 @@ figcaption.balloon3.hide {
       height: 33px !important; }
 
 .joopjip {
-  margin-right: 80px; }
+  margin-right: 80px;
+  margin-top: -10px; }
   .joopjip > img {
     position: relative;
     top: 10px; }
@@ -1780,17 +1776,20 @@ figcaption.balloon3.hide {
       width: 107px !important;
       height: 45px !important; }
 
-.fu > img {
-  position: relative;
-  top: 10px; }
-.fu figcaption {
-  margin: -40px 0 0 10px; }
-  .fu figcaption img {
-    width: 40px !important;
-    height: 34px !important; }
+.fu {
+  margin-top: -10px; }
+  .fu > img {
+    position: relative;
+    top: 10px; }
+  .fu figcaption {
+    margin: -40px 0 0 10px; }
+    .fu figcaption img {
+      width: 40px !important;
+      height: 34px !important; }
 
 .dr_vann {
-  margin-right: 20px; }
+  margin-right: 20px;
+  margin-top: -10px; }
   .dr_vann > img {
     height: 270px;
     position: relative;
@@ -1801,15 +1800,17 @@ figcaption.balloon3.hide {
       width: 169px !important;
       height: 31px !important; }
 
-.momelon > img {
-  height: 320px;
-  position: relative;
-  top: 10px; }
-.momelon figcaption {
-  margin: 25px 0 0 0; }
-  .momelon figcaption img {
-    width: 130px !important;
-    height: 40px !important; }
+.momelon {
+  margin-top: -10px; }
+  .momelon > img {
+    height: 320px;
+    position: relative;
+    top: 10px; }
+  .momelon figcaption {
+    margin: 25px 0 0 0; }
+    .momelon figcaption img {
+      width: 130px !important;
+      height: 40px !important; }
 
 .munbear > img {
   position: relative;
@@ -1830,6 +1831,13 @@ figcaption.balloon3.hide {
     top: 70px; }
   .pubbit figcaption {
     margin: 0 0 0 -60px; }
+
+.no-csstransitions figcaption.show {
+  filter: alpha(opactiy=100);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1; }
 
 /* ==========================================================================
    Helper classes

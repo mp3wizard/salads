@@ -99,7 +99,7 @@ main { width: 100%; height: 100%;
 .rsDefault.rsHor .rsArrowLeft .rsArrowIcn { background: url('../img/friend/btn-slide_left.png') no-repeat center center; width: 109px; height: 171px; margin-left: -47px; margin-top: 32px; }
 .rsContent { text-align:center;  }
 .rsContainer>.rsSlide:first-child .rsContent { opacity: 0;}
-figure {padding-top: 185px; display: inline-block; position: relative;
+figure {padding-top: 185px; display: inline-block; position: relative; cursor: pointer!important;
 	>img { z-index: 2; position: relative; vertical-align: bottom; }
 }
 figcaption { background: url('../img/friend/balloon1.png'); width: 243px; height: 256px; top: 15px; left: 50%; font-size: 12px;  margin-left: -40px; z-index: 1; line-height: 1.25; text-align: left;  position: absolute; left: 0; top: 0; z-index: 15;
@@ -168,9 +168,9 @@ figcaption.balloon3.hide { @include animation(ballon-left-back .1s ease-out both
 }
 
 .rsContainer { 
-	>.rsSlide:nth-child(2) figure { top: 50px; }
-	>.rsSlide:nth-child(3) figure { top: -10px; }
-	>.rsSlide:nth-child(4) figure { top: -10px; }
+	// >.rsSlide:nth-child(2) figure { top: 50px; }
+	// >.rsSlide:nth-child(3) figure { top: -10px; }
+	// >.rsSlide:nth-child(4) figure { top: -10px; }
 }
 // End RoyalSlider
 
@@ -189,43 +189,43 @@ figcaption.balloon3.hide { @include animation(ballon-left-back .1s ease-out both
 		img { width: 112px!important; height: 33px!important;}
 	}
 }
-.dindin { margin: 0 60px 0 120px;
+.dindin { margin: 50px 60px 0 120px;
 	>img { height: 260px;}
 	figcaption { margin: -40px 0 0 30px; 
 		img { width: 103px!important; height: 40px!important;}
 	}
 }
-.supernode { margin: 0 80px 0 0; z-index: 30;
+.supernode { margin: 50px 80px 0 0; z-index: 30;
 	>img { height: 220px; }
 	figcaption { margin: -70px 0 0 60px;
 		img { width: 144px!important; height: 49px!important;}
 	}
 }
-.punpun { z-index: 29;
+.punpun { z-index: 29; margin-top: 50px;
 	>img { height: 260px; }
 	figcaption { margin: -35px 0 0 -10px;
 		img { width: 113px!important; height: 33px!important;}
 	}
 }
-.joopjip { margin-right: 80px;
+.joopjip { margin-right: 80px; margin-top: -10px;
 	>img { position: relative; top: 10px; }
 	figcaption { margin: 25px 0 0 0px;
 		img { width: 107px!important; height: 45px!important;}
 	}
 }
-.fu { 
+.fu { margin-top: -10px;
 	>img { position: relative; top: 10px; }
 	figcaption { margin: -40px 0 0 10px;
 		img { width: 40px!important; height: 34px!important;}
 	}
 }
-.dr_vann { margin-right: 20px; 
+.dr_vann { margin-right: 20px; margin-top: -10px; 
 	>img { height: 270px; position: relative; top: 10px; }
 	figcaption { margin: 15px 0 0 -120px;
 		img { width: 169px!important; height: 31px!important;}
 	}
 }
-.momelon { 
+.momelon { margin-top: -10px;
 	>img { height: 320px; position: relative; top: 10px; }
 	figcaption { margin: 25px 0 0 0;
 		img { width: 130px!important; height: 40px!important;}
@@ -243,3 +243,7 @@ figcaption.balloon3.hide { @include animation(ballon-left-back .1s ease-out both
 	>img { top: 70px; }
 	figcaption { margin: 0 0 0 -60px; }
 }
+
+//OLD IE
+
+.no-csstransitions figcaption.show { @include opacity(1); }

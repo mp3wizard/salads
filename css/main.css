@@ -1126,7 +1126,8 @@ footer {
     position: absolute;
     top: -78px;
     z-index: 3;
-    background-image: url("../img/logo.png"); }
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat; }
     @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3 / 1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
       footer h1 a {
         background-image: url("../img/logo@2x.png");
@@ -1152,7 +1153,7 @@ footer {
       display: block;
       height: 50px;
       float: left;
-      margin-left: 10px;
+      margin-left: 8px;
       background: url("../img/nav.png");
       text-indent: -1000em; }
     footer nav #nav-1 {
@@ -1160,17 +1161,17 @@ footer {
       background-position: 0 7px;
       cursor: default; }
     footer nav #nav-2 {
-      width: 140px;
-      background-position: -200px 7px; }
+      width: 142px;
+      background-position: -199px 7px; }
     footer nav #nav-3 {
-      width: 140px;
-      background-position: -350px 7px; }
+      width: 141px;
+      background-position: right 7px; }
     footer nav #nav-1:hover, footer nav .active #nav-1 {
       background-position: 0 7px; }
     footer nav #nav-2:hover, footer nav .active #nav-2 {
-      background-position: -200px -53px; }
+      background-position: -199px -53px; }
     footer nav #nav-3:hover, footer nav .active #nav-3 {
-      background-position: -350px -53px; }
+      background-position: right -53px; }
   footer .btn {
     position: absolute;
     left: 50%;

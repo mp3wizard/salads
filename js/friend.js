@@ -1,6 +1,10 @@
 jQuery(document).ready(function($) {
-    
-    //$('.royalSlider').load('kit/friend-list.kit');
+    // bxSlider
+    $('.bxslider').bxSlider({ 
+        infiniteLoop: false,
+        pager: false
+    });
+
     $('figure>img').each(function(){
         $(this).on('touch mouseover', function(e){
             $('figcaption').removeClass('show');
@@ -52,7 +56,6 @@ jQuery(document).ready(function($) {
         $(this).parent('li').addClass('active');
     });
     slider.ev.on('rsAfterSlideChange', function(event){
-        console.log(slider.currSlideId);
         if (slider.currSlideId > 3){
             $('#nav-2').parent('li').removeClass('active'); 
             $('#nav-3').parent('li').addClass('active');
@@ -61,4 +64,5 @@ jQuery(document).ready(function($) {
             $('#nav-2').parent('li').addClass('active');
         }
     });
+
 });

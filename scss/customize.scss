@@ -2,8 +2,8 @@
 html, body { width: 100%; height: 100%; }
 body { font-family: Helvetica, Arial; background-repeat: no-repeat; background-position: center center }
 
-#btnBack { display:block; position: fixed; left: 50%; top: 0; @include retina-image('../img/btn-back', 78px 98px); @include size(78px 98px); text-indent: -1000em; z-index: 99; margin-left: -455px; }
-footer { position: fixed; top: auto; bottom: 0; width: 100%; background: url('../img/bg-footer.png') no-repeat center bottom; height: $h-footer; z-index: 2; 
+#btnBack { display:block; position: fixed; left: 20px; top: 0; @include retina-image('../img/btn-back', 78px 98px); @include size(78px 98px); text-indent: -1000em; z-index: 99;  }
+footer { position: fixed; top: auto; bottom: 0; width: 100%; background: url('../img/bg-footer.png') no-repeat center bottom; height: $h-footer; z-index: 2;  color: #fff;
 
 	h1 { margin: 0; }
 	h1 a { width: 254px; height: 143px; display: block; text-indent: -1000em;  margin-left: -468px; left: 50%; position: absolute; top: -78px; z-index: 3; 
@@ -26,16 +26,34 @@ footer { position: fixed; top: auto; bottom: 0; width: 100%; background: url('..
 	.btn { position: absolute; left: 50%; bottom: 14px; }
 	.appstore { margin-left: 110px; }
 	.googleplay { margin-left: 275px; }	
-	h2 { position: absolute; font-family: 'JS Noklae'; font-size: em(23); text-align: center; text-shadow: 0 1px 0 rgba(7,7,7,.75); color: #fff; line-height: .8; left: 50%; font-weight: 400;top: 14px; margin-left:-20px; @include font-smoothing(subpixel-antialiased); letter-spacing: .5px; }
+	h2 { position: absolute; font-family: 'JS Noklae'; font-size: em(23); text-align: justify; text-shadow: 0 1px 0 rgba(7,7,7,.75);line-height: .8; left: 50%; font-weight: 400;top: 14px; margin-left:-20px; @include font-smoothing(antialiased); letter-spacing: .5px;  }
 	
 	@include media(max-height $h-min-home) {
 		position: relative;
+	}
+	#lang { font-family: 'JS Noklae'; text-shadow: 0 1px 0 rgba(7,7,7,.75); font-size: 18px; position: absolute; left: 50%; margin-left: 450px; text-align: center; bottom: 5px; margin-bottom: 0; @include font-smoothing(antialiased); letter-spacing: .5px;
+		dd { padding: 0; margin: 0; width: 62px; @include retina-image('../img/bg-lang', 62px 26px); background-repeat: no-repeat; } 
+		a { color: #fff; text-decoration: none; padding-top: 22px; display: inline-block; width: 28px; @include retina-image('../img/bullet-lang', 21px 22px); background-repeat: no-repeat; position: relative; }
+		#btnTh { text-align: left; padding-left: 3px; background-position: left 2px; left: -1px; }
+		#btnEn { text-align: right; padding-right: 3px; background-position: right 2px; right: -1px;}
 	} 
 	
+	
 }
+
 #copyright { color:#fff; font-size:12px; position: absolute; left:50%; margin: 0; margin-left: -460px; top: auto; bottom: 10px; }
 
-main { width: 100%; height: 100%; 
+.th #btnEn, .en #btnTh { background-image: none; }
+// .th #lang:hover { 
+// 	#btnEn { @include retina-image('../img/bullet-lang', 21px 22px);}
+// 	#btnTh { background-image: none; cursor: default; }
+// }
+// .en #lang:hover { 
+// 	#btnTh { @include retina-image('../img/bullet-lang', 21px 22px);}
+// 	#btnEn { background-image: none; cursor: default; }
+// }
+
+main { width: 100%; height: 100%; min-width: $w-slider;
 	@include media(max-height $h-min-home) {
 		height: $h-min-home - $h-footer;
 	} 
@@ -81,8 +99,10 @@ main { width: 100%; height: 100%;
 // End Friend
 
 // Start RoyalSlider
-.royalSlider { position: absolute;left: 50%; margin-left: -($w-slider / 2); z-index: 0; 
+.royalSlider { position: absolute;z-index: 0;  
+	// left: 50%; margin-left: -($w-slider / 2); 
 	//top: 50%; margin-top: -380px;
+	width: 100%;
 	bottom: 100px;
 	@include media(max-height $h-min-home) {
 		top: 15px;
@@ -90,34 +110,112 @@ main { width: 100%; height: 100%;
 }
 
 .rsDefault .rsOverflow, .rsDefault .rsSlide, .rsDefault .rsVideoFrameHolder, .rsDefault .rsThumbs { background: transparent; }
+.rsSlide { text-align: center }
 
 // .rsOverflow, .rsSlide { overflow: visible; }
 
-.rsDefault .rsArrow { width: 110px; height: 171px; top: 215px!important;}
+.rsDefault .rsArrow { width: 110px; height: 175px; top: 215px!important;}
 .rsDefault .rsArrowDisabled .rsArrowIcn { opacity: 1;  }
-.rsDefault.rsHor .rsArrowRight .rsArrowIcn { background: url('../img/friend/btn-slide_right.png') no-repeat center center; width: 84px; height: 171px; margin-left: -42px; margin-top: 30px; }
-.rsDefault.rsHor .rsArrowLeft .rsArrowIcn { background: url('../img/friend/btn-slide_left.png') no-repeat center center; width: 109px; height: 171px; margin-left: -47px; margin-top: 32px; }
-.rsContent { text-align:center;  }
-.rsContainer>.rsSlide:first-child .rsContent { opacity: 0;}
-figure {padding-top: 185px; display: inline-block; position: relative; cursor: pointer!important;
-	>img { z-index: 2; position: relative; vertical-align: bottom; }
-}
-figcaption { background: url('../img/friend/balloon1.png'); width: 243px; height: 256px; top: 15px; left: 50%; font-size: 16px;  margin-left: -40px; z-index: 1; line-height: 1.25; text-align: left;  position: absolute; left: 0; top: 0; z-index: 15;
-	@include opacity(0); 
-	img { display: block; margin-bottom: 10px; }
-	p { margin: 0 0 10px 0; padding: 0 15px 0 20px; }  
-	p:first-child { padding-top: 15px; }
-	a { display: block; position: absolute; width: 21px; height: 19px; background: url('../img/friend/btn-close_balloon.png'); text-indent: -1000em; right: 25px; top: 25px; position: absolute; }
-}
-figcaption.balloon2 { background-image: url('../img/friend/balloon2.png'); height: 260px;}
-figcaption.balloon3 { background-image: url('../img/friend/balloon3.png'); height: 251px; width: 266px;
-	p { padding-left: 55px}
-}
-figcaption.show { @include animation(ballon .2s ease-in both); }
-figcaption.hide { @include animation(ballon-back .1s ease-out both); }
+.rsDefault.rsHor .rsArrowRight .rsArrowIcn { background: url('../img/friend/btn-slide_right.png') no-repeat center center; width: 84px; height: 175px; margin-left: -42px; margin-top: 30px; }
+.rsDefault.rsHor .rsArrowLeft .rsArrowIcn { background: url('../img/friend/btn-slide_left.png') no-repeat center center; width: 109px; height: 175px; margin-left: -47px; margin-top: 32px; }
+.rsContent { text-align:center;  
+	figure { padding-top: 185px; display: inline-block; position: relative; cursor: pointer!important; margin: auto 25px;
+		>img { z-index: 2; position: relative; vertical-align: bottom; }
+	}
+	>figure:first-child { margin-left: 0; }
+	>figure:last-child { margin-right: 0; }
+	figcaption { background: url('../img/friend/balloon1.png'); width: 243px; height: 256px; top: 15px; left: 50%; font-size: 16px;  margin-left: -40px; z-index: 1; line-height: 1.25; text-align: left;  position: absolute; left: 0; top: 0; z-index: 15;
+		@include opacity(0); 
+		img { display: block; margin-bottom: 10px; }
+		p { margin: 0 0 10px 0; padding: 0 15px 0 20px; }  
+		p:first-child { padding-top: 15px; }
+		a { display: block; position: absolute; width: 21px; height: 19px; background: url('../img/friend/btn-close_balloon.png'); text-indent: -1000em; right: 25px; top: 25px; position: absolute; }
+	}
+	figcaption.balloon2 { background-image: url('../img/friend/balloon2.png'); height: 260px;}
+	figcaption.balloon3 { background-image: url('../img/friend/balloon3.png'); height: 251px; width: 266px;
+		p { padding-left: 55px}
+	}
+	figcaption.show { @include animation(ballon .2s ease-in both); }
+	figcaption.hide { @include animation(ballon-back .1s ease-out both); }
 
-figcaption.balloon3.show { @include animation(ballon-left .2s ease-in both); }
-figcaption.balloon3.hide { @include animation(ballon-left-back .1s ease-out both); }
+	figcaption.balloon3.show { @include animation(ballon-left .2s ease-in both); }
+	figcaption.balloon3.hide { @include animation(ballon-left-back .1s ease-out both); }
+}
+.rsContainer>.rsSlide:first-child .rsContent { opacity: 0;}
+.royalSlider { 
+	.jaja {
+		figcaption { margin: 10px 0 0 4px;
+			img { width: 66px!important; height: 36px!important;}
+		} 
+	}
+	.sasa {
+		figcaption { z-index: 3; margin: -45px 0 0 -10px; 
+			img { width: 77px!important; height: 32px!important;}
+		}
+	}
+	.homma { 
+		figcaption { margin: -80px 0 0 -22px; 
+			img { width: 112px!important; height: 33px!important;}
+		}
+	}
+	.dindin { margin-top: 50px;
+		>img { height: 260px;}
+		figcaption { margin: -40px 0 0 30px; 
+			img { width: 103px!important; height: 40px!important;}
+		}
+	}
+	.supernode { margin-top: 50px; z-index: 30;
+		>img { height: 220px; }
+		figcaption { margin: -70px 0 0 60px;
+			img { width: 144px!important; height: 49px!important;}
+		}
+	}
+	.punpun { z-index: 29; margin-top: 50px;
+		>img { height: 260px; }
+		figcaption { margin: -35px 0 0 -10px;
+			img { width: 113px!important; height: 33px!important;}
+		}
+	}
+	.joopjip { margin-top: -10px;
+		>img { position: relative; top: 10px; }
+		figcaption { margin: 25px 0 0 0px;
+			img { width: 107px!important; height: 45px!important;}
+		}
+	}
+	.fu { margin-top: -10px;
+		>img { position: relative; top: 10px; }
+		figcaption { margin: -40px 0 0 10px;
+			img { width: 40px!important; height: 34px!important;}
+		}
+	}
+	.dr_vann {  margin-top: 30px; 
+		>img {  position: relative; top: 10px; 
+			// height: 270px;
+		}
+		figcaption { margin: 15px 0 0 -120px;
+			img { width: 169px!important; height: 31px!important;}
+		}
+	}
+	.momelon { margin-top: -10px;
+		>img { height: 320px; position: relative; top: 10px; }
+		figcaption { margin: 25px 0 0 0;
+			img { width: 130px!important; height: 40px!important;}
+		}
+	}
+	.munbear { 
+		>img { position: relative; top: -175px; }
+		figcaption { margin: 20px 0 0 250px; }
+	}
+	.mapa_mamoo { 
+		>img { position: relative; top: 75px; }  
+		figcaption { margin: 15px 0 0 150px; z-index: 1; }
+	}
+	.pubbit { top: 95px;
+		>img {  }
+		figcaption { margin: -80px 0 0 -60px; }
+	}
+}
+
 
 @include keyframes(ballon) {
 	0% {
@@ -167,82 +265,11 @@ figcaption.balloon3.hide { @include animation(ballon-left-back .1s ease-out both
 	}
 }
 
-.rsContainer { 
-	// >.rsSlide:nth-child(2) figure { top: 50px; }
-	// >.rsSlide:nth-child(3) figure { top: -10px; }
-	// >.rsSlide:nth-child(4) figure { top: -10px; }
-}
+
 // End RoyalSlider
 
-.jaja {
-	figcaption { margin: 10px 0 0 4px;
-		img { width: 66px!important; height: 36px!important;}
-	} 
-}
-.sasa { margin: 0 10px 0 50px;
-	figcaption { z-index: 3; margin: -45px 0 0 -10px; 
-		img { width: 77px!important; height: 32px!important;}
-	}
-}
-.homma { 
-	figcaption { margin: -80px 0 0 -22px; 
-		img { width: 112px!important; height: 33px!important;}
-	}
-}
-.dindin { margin: 50px 60px 0 30px;
-	>img { height: 260px;}
-	figcaption { margin: -40px 0 0 30px; 
-		img { width: 103px!important; height: 40px!important;}
-	}
-}
-.supernode { margin: 50px 50px 0 120px; z-index: 30;
-	>img { height: 220px; }
-	figcaption { margin: -70px 0 0 60px;
-		img { width: 144px!important; height: 49px!important;}
-	}
-}
-.punpun { z-index: 29; margin-top: 50px;
-	>img { height: 260px; }
-	figcaption { margin: -35px 0 0 -10px;
-		img { width: 113px!important; height: 33px!important;}
-	}
-}
-.joopjip { margin-right: 80px; margin-top: -10px;
-	>img { position: relative; top: 10px; }
-	figcaption { margin: 25px 0 0 0px;
-		img { width: 107px!important; height: 45px!important;}
-	}
-}
-.fu { margin-top: -10px;
-	>img { position: relative; top: 10px; }
-	figcaption { margin: -40px 0 0 10px;
-		img { width: 40px!important; height: 34px!important;}
-	}
-}
-.dr_vann { margin-right: 20px; margin-top: 30px; 
-	>img { height: 270px; position: relative; top: 10px; }
-	figcaption { margin: 15px 0 0 -120px;
-		img { width: 169px!important; height: 31px!important;}
-	}
-}
-.momelon { margin: -10px 40px 0 35px;
-	>img { height: 320px; position: relative; top: 10px; }
-	figcaption { margin: 25px 0 0 0;
-		img { width: 130px!important; height: 40px!important;}
-	}
-}
-.munbear { 
-	>img { position: relative; top: -175px; }
-	figcaption { margin: 20px 0 0 250px; }
-}
-.mapa_mamoo { 
-	>img { position: relative; top: 75px; }  
-	figcaption { margin: 15px 0 0 150px; z-index: 1; }
-}
-.pubbit { top: 95px; margin: 0 100px 0 40px;
-	>img {  }
-	figcaption { margin: -80px 0 0 -60px; }
-}
+
+
 
 //OLD IE
 

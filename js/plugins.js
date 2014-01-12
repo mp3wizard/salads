@@ -22,3 +22,14 @@
 }());
 
 // Place any jQuery/helper plugins in here.
+jQuery(document).ready(function($) { 
+    // $(".btnLang").click(function(e) {
+    //     e.preventDefault();
+    //     var to = this.href.substring(1); 
+    //     var from = $.url(-2);
+    //     var urls = from.replace('/' + from + '/', '/' + to + '/');
+    //     document.location = urls;
+    // });
+    // var pathURL = $.url(-2);
+    // console.log(pathURL);
+});

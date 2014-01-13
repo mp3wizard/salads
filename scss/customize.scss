@@ -24,14 +24,14 @@ footer { position: fixed; top: auto; bottom: 0; width: 100%; background: url('..
 		#nav-3:hover, .active #nav-3{ background-position: right $nav_v2; }
 	}  
 	.btn { position: absolute; left: 50%; bottom: 14px; }
-	.appstore { margin-left: 110px; }
-	.googleplay { margin-left: 275px; }	
+	.appstore { margin-left: 105px; }
+	.googleplay { margin-left: 260px; }	
 	h2 { position: absolute; font-family: 'JS Noklae'; font-size: em(23); text-align: justify; text-shadow: 0 1px 0 rgba(7,7,7,.75);line-height: .8; left: 50%; font-weight: 400;top: 14px; margin-left:-20px; @include font-smoothing(antialiased); letter-spacing: .5px;  }
 	
 	@include media(max-height $h-min-home) {
 		position: relative;
 	}
-	#lang { font-family: 'JS Noklae'; text-shadow: 0 1px 0 rgba(7,7,7,.75); font-size: 18px; position: absolute; left: 50%; margin-left: 450px; text-align: center; bottom: 5px; margin-bottom: 0; @include font-smoothing(antialiased); letter-spacing: .5px;
+	#lang { font-family: 'JS Noklae'; text-shadow: 0 1px 0 rgba(7,7,7,.75); font-size: 18px; position: absolute; left: 50%; margin-left: 430px; text-align: center; bottom: 5px; margin-bottom: 0; @include font-smoothing(antialiased); letter-spacing: .5px;
 		dd { padding: 0; margin: 0; width: 62px; @include retina-image('../img/bg-lang', 62px 26px); background-repeat: no-repeat; } 
 		a { color: #fff; text-decoration: none; padding-top: 22px; display: inline-block; width: 28px; @include retina-image('../img/bullet-lang', 21px 22px); background-repeat: no-repeat; position: relative; }
 		#btnTh { text-align: left; padding-left: 3px; background-position: left 2px; left: -1px; }

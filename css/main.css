@@ -1333,9 +1333,9 @@ footer {
     left: 50%;
     bottom: 14px; }
   footer .appstore {
-    margin-left: 110px; }
+    margin-left: 105px; }
   footer .googleplay {
-    margin-left: 275px; }
+    margin-left: 260px; }
   footer h2 {
     position: absolute;
     font-family: 'JS Noklae';
@@ -1361,7 +1361,7 @@ footer {
     font-size: 18px;
     position: absolute;
     left: 50%;
-    margin-left: 450px;
+    margin-left: 430px;
     text-align: center;
     bottom: 5px;
     margin-bottom: 0;

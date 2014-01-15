@@ -103,7 +103,8 @@ main { width: 100%; height: 100%; min-width: $w-slider;
 	// left: 50%; margin-left: -($w-slider / 2); 
 	//top: 50%; margin-top: -380px;
 	width: 100%;
-	bottom: 100px;
+	bottom: 90px;
+	min-width: 1000px;
 	@include media(max-height $h-min-home) {
 		top: 15px;
 	} 
@@ -116,15 +117,16 @@ main { width: 100%; height: 100%; min-width: $w-slider;
 
 .rsDefault .rsArrow { width: 110px; height: 175px; top: 215px!important;}
 .rsDefault .rsArrowDisabled .rsArrowIcn { opacity: 1;  }
-.rsDefault.rsHor .rsArrowRight .rsArrowIcn { background: url('../img/friend/btn-slide_right.png') no-repeat center center; width: 84px; height: 175px; margin-left: -42px; margin-top: 30px; }
-.rsDefault.rsHor .rsArrowLeft .rsArrowIcn { background: url('../img/friend/btn-slide_left.png') no-repeat center center; width: 109px; height: 175px; margin-left: -47px; margin-top: 32px; }
+.rsDefault.rsHor .rsArrowRight .rsArrowIcn { background: url('../img/friend/btn-slide_right.png') no-repeat center center; width: 84px; height: 175px; margin-left: -42px; margin-top: 45px; }
+.rsDefault.rsHor .rsArrowLeft .rsArrowIcn { background: url('../img/friend/btn-slide_left.png') no-repeat center center; width: 109px; height: 175px; margin-left: -47px; margin-top: 47px; }
 .rsContent { text-align:center;  
-	figure { padding-top: 185px; display: inline-block; position: relative; cursor: pointer!important; margin: auto 25px;
-		>img { z-index: 2; position: relative; vertical-align: bottom; }
+	figure { display: inline-block; position: relative; cursor: pointer!important; margin: auto 25px; 
+		height: 520px; vertical-align: top; 
+		>img { z-index: 2; position: relative; }
 	}
 	>figure:first-child { margin-left: 0; }
 	>figure:last-child { margin-right: 0; }
-	figcaption { background: url('../img/friend/balloon1.png'); width: 243px; height: 256px; top: 15px; left: 50%; font-size: 16px;  margin-left: -40px; z-index: 1; line-height: 1.25; text-align: left;  position: absolute; left: 0; top: 0; z-index: 15;
+	figcaption { background: url('../img/friend/balloon1.png'); width: 243px; height: 256px;  left: 50%; font-size: 16px; z-index: 1; line-height: 1.25; text-align: left;  position: absolute; left: 0; top: 10px; z-index: 15;
 		@include opacity(0); 
 		img { display: block; margin-bottom: 10px; }
 		p { margin: 0 0 10px 0; padding: 0 15px 0 20px; }  
@@ -144,75 +146,63 @@ main { width: 100%; height: 100%; min-width: $w-slider;
 .rsContainer>.rsSlide:first-child .rsContent { opacity: 0;}
 .royalSlider { 
 	.jaja {
-		figcaption { margin: 10px 0 0 4px;
+		figcaption { margin: 0 0 0 20px;
 			img { width: 66px!important; height: 36px!important;}
 		} 
 	}
 	.sasa {
-		figcaption { z-index: 3; margin: -45px 0 0 -10px; 
+		figcaption { z-index: 3; margin: 0 0 0 -40px; 
 			img { width: 77px!important; height: 32px!important;}
 		}
 	}
 	.homma { 
-		figcaption { margin: -80px 0 0 -22px; 
+		figcaption { margin: 20px 0 0 -22px; 
 			img { width: 112px!important; height: 33px!important;}
 		}
 	}
-	.dindin { margin-top: 50px;
-		>img { height: 260px;}
-		figcaption { margin: -40px 0 0 30px; 
+	.dindin { 
+		figcaption { margin: 0 0 0 30px; 
 			img { width: 103px!important; height: 40px!important;}
 		}
 	}
-	.supernode { margin-top: 50px; z-index: 30;
-		>img { height: 220px; }
-		figcaption { margin: -70px 0 0 60px;
+	.supernode {  z-index: 30;
+		figcaption { margin: 0 0 0 60px;
 			img { width: 144px!important; height: 49px!important;}
 		}
 	}
-	.punpun { z-index: 29; margin-top: 50px;
-		>img { height: 260px; }
-		figcaption { margin: -35px 0 0 -10px;
+	.punpun { z-index: 29;
+		figcaption { margin: 0 0 0 -20px;
 			img { width: 113px!important; height: 33px!important;}
 		}
 	}
-	.joopjip { margin-top: -10px;
-		>img { position: relative; top: 10px; }
-		figcaption { margin: 25px 0 0 0px;
+	.joopjip {
+		figcaption { margin: 30px 0 0 -10px;
 			img { width: 107px!important; height: 45px!important;}
 		}
 	}
-	.fu { margin-top: -10px;
-		>img { position: relative; top: 10px; }
-		figcaption { margin: -40px 0 0 10px;
+	.fu {
+		figcaption { margin: 0 0 0 50px;
 			img { width: 40px!important; height: 34px!important;}
 		}
 	}
-	.dr_vann {  margin-top: 30px; 
-		>img {  position: relative; top: 10px; 
-			// height: 270px;
-		}
-		figcaption { margin: 15px 0 0 -120px;
+	.dr_vann { 
+		figcaption { margin: 0 0 0 -120px;
 			img { width: 169px!important; height: 31px!important;}
 		}
 	}
-	.momelon { margin-top: -10px;
-		>img { height: 320px; position: relative; top: 10px; }
-		figcaption { margin: 25px 0 0 0;
+	.momelon {
+		figcaption { margin: 0;
 			img { width: 130px!important; height: 40px!important;}
 		}
 	}
 	.munbear { 
-		>img { position: relative; top: -175px; }
-		figcaption { margin: 20px 0 0 250px; }
+		figcaption { margin: 0 0 0 250px; }
 	}
-	.mapa_mamoo { 
-		>img { position: relative; top: 75px; }  
-		figcaption { margin: 15px 0 0 150px; z-index: 1; }
+	.mapa_mamoo {   
+		figcaption { margin: 0 0 0 150px; z-index: 1; }
 	}
-	.pubbit { top: 95px;
-		>img {  }
-		figcaption { margin: -80px 0 0 -60px; }
+	.pubbit {
+		figcaption { margin: 30px 0 0 -60px; }
 	}
 }
 

@@ -1,16 +1,17 @@
-
 html, body { width: 100%; height: 100%; }
 body { font-family: Helvetica, Arial; background-repeat: no-repeat; background-position: center center }
+.ir { display: block; text-indent: -1000em; }
 
-#btnBack { display:block; position: fixed; left: 20px; top: 0; @include retina-image('../img/btn-back', 78px 98px); @include size(78px 98px); text-indent: -1000em; z-index: 99;  }
+#btnBack { display:block; position: fixed; left: 20px; top: 0; @include retina-image('../img/btn-back', 78px 90px); @include size(78px 90px); text-indent: -1000em; z-index: 99;  }
 footer { position: fixed; top: auto; bottom: 0; width: 100%; background: url('../img/bg-footer.png') no-repeat center bottom; height: $h-footer; z-index: 2;  color: #fff;
+	&:before { position:absolute; content: ''; @include size(358px 126px); display:block; bottom: 0; left: 50%; @include retina-image('../img/bg-download', 358px 126px); margin-left: 20px; }
 
 	h1 { margin: 0; }
 	h1 a { width: 254px; height: 143px; display: block; text-indent: -1000em;  margin-left: -468px; left: 50%; position: absolute; top: -78px; z-index: 3; 
 		@include retina-image("../img/logo", 254px 143px); background-repeat: no-repeat;
 	}
 	nav { position: absolute;top: -126px; width: 100%; height: 126px; overflow: hidden; z-index: -1;
-		ul { list-style: none; margin: 0; padding: 0; left: 50%; margin-left: -170px; position: absolute; top: 63px; }
+		ul { list-style: none; margin: 0; padding: 0; left: 50%; margin-left: -170px; position: absolute; top: 42px; }
 		li { display: inline; }
 		li a { display: block; height: 50px; float: left; margin-left: 8px; background: url('../img/nav.png'); text-indent: -1000em;  }
 		$nav_v: 7px;
@@ -23,15 +24,15 @@ footer { position: fixed; top: auto; bottom: 0; width: 100%; background: url('..
 		#nav-2:hover, .active #nav-2 { background-position: -199px $nav_v2; }
 		#nav-3:hover, .active #nav-3{ background-position: right $nav_v2; }
 	}  
-	.btn { position: absolute; left: 50%; bottom: 14px; }
-	.appstore { margin-left: 105px; }
-	.googleplay { margin-left: 260px; }	
-	h2 { position: absolute; font-family: 'JS Noklae'; font-size: em(23); text-align: justify; text-shadow: 0 1px 0 rgba(7,7,7,.75);line-height: .8; left: 50%; font-weight: 400;top: 14px; margin-left:-20px; @include font-smoothing(antialiased); letter-spacing: .5px;  }
+	.btn { position: absolute; left: 50%; bottom: 66px; }
+	.appstore { margin-left: 130px; }
+	.googleplay { margin-left: 245px; }	
+	h2 { position: absolute; font-family: 'JS Noklae'; font-size: em(21); text-align: justify; text-shadow: 0 1px 0 rgba(7,7,7,.75);line-height: .8; left: 50%; font-weight: 400;top: 15px; margin-left:135px; @include font-smoothing(antialiased);  }
 	
 	@include media(max-height $h-min-home) {
 		position: relative;
 	}
-	#lang { font-family: 'JS Noklae'; text-shadow: 0 1px 0 rgba(7,7,7,.75); font-size: 18px; position: absolute; left: 50%; margin-left: 430px; text-align: center; bottom: 5px; margin-bottom: 0; @include font-smoothing(antialiased); letter-spacing: .5px;
+	#lang { font-family: 'JS Noklae'; text-shadow: 0 1px 0 rgba(7,7,7,.75); font-size: 18px; position: absolute; left: 50%; margin-left: 420px; text-align: center; bottom: 5px; margin-bottom: 0; @include font-smoothing(antialiased); letter-spacing: .5px;
 		dd { padding: 0; margin: 0; width: 62px; @include retina-image('../img/bg-lang', 62px 26px); background-repeat: no-repeat; } 
 		a { color: #fff; text-decoration: none; padding-top: 22px; display: inline-block; width: 28px; @include retina-image('../img/bullet-lang', 21px 22px); background-repeat: no-repeat; position: relative; }
 		#btnTh { text-align: left; padding-left: 3px; background-position: left 2px; left: -1px; }
@@ -63,6 +64,7 @@ main { width: 100%; height: 100%; min-width: $w-slider;
 // Start Home
 .home body { background-image: url('../img/world/bg-body.jpg');
 	.point { position: absolute; left: 50%; top: 50%;  }
+
 	#btnBack { display: none; }
 	main {  
 		@include media(max-height $h-min-home) {
@@ -77,6 +79,9 @@ main { width: 100%; height: 100%; min-width: $w-slider;
 	}
 }
 #world-salads_friend { margin-left: -80px; margin-top: -75px;}
+#world-about { display: block; @include size(170px 140px); margin: 80px 0 0 -170px; }
+#world-funzone { display: block; @include size(100px 110px); margin: 75px 0 0 65px;  }
+
 // End Home
 
 
@@ -126,12 +131,16 @@ main { width: 100%; height: 100%; min-width: $w-slider;
 	}
 	>figure:first-child { margin-left: 0; }
 	>figure:last-child { margin-right: 0; }
-	figcaption { background: url('../img/friend/balloon1.png'); width: 243px; height: 256px;  left: 50%; font-size: 16px; z-index: 1; line-height: 1.25; text-align: left;  position: absolute; left: 0; top: 10px; z-index: 15;
-		@include opacity(0); 
+	figcaption { background: url('../img/friend/balloon1.png'); width: 243px; height: 256px;  left: 50%;  z-index: 1; line-height: 1.25; text-align: left;  position: absolute; left: 0; top: 10px; z-index: 15; @include font-smoothing(antialiased); @include opacity(0); 
+		font-family: 'KwangMD'; font-size: 22px; line-height: 1; 
+
+		.en & { font-size: 20px; line-height: 0.9; }
+
 		img { display: block; margin-bottom: 10px; }
 		p { margin: 0 0 10px 0; padding: 0 15px 0 20px; }  
 		p:first-child { padding-top: 15px; }
 		a { display: block; position: absolute; width: 21px; height: 19px; background: url('../img/friend/btn-close_balloon.png'); text-indent: -1000em; right: 25px; top: 25px; position: absolute; }
+
 	}
 	figcaption.balloon2 { background-image: url('../img/friend/balloon2.png'); height: 260px;}
 	figcaption.balloon3 { background-image: url('../img/friend/balloon3.png'); height: 251px; width: 266px;
@@ -258,9 +267,47 @@ main { width: 100%; height: 100%; min-width: $w-slider;
 
 // End RoyalSlider
 
+//  ============ About Page ============
+.about body { background-image: url('../img/about/bg-body.jpg'); background-position: center bottom;  }
+.about article { @include size(574px 516px); background: url('../img/about/bg-paper.png') no-repeat; position: absolute; top: 50%; left:50%; margin: -271px 0 0 -90px; color: #4d412f;font-size: 13px; text-align: justify; @include text-align-last(left);
+	
+	.detail { height: 220px; overflow: auto; margin-right: 25px; }
+	
+	p { margin: 0 15px 0 45px; text-indent: 35px; line-height: 1.7; }
+	h2 { margin: 45px 0 20px 40px  }
+}
 
+#tabnav { position:absolute; margin: 0; padding:0; list-style: none; white-space: nowrap; right: 20px; top: 40px;
+	li { display: inline-block; }
+}
+#hdAbout { text-indent: -1000em; @include size(125px 37px); @include retina-image('../img/about/txt-about_us', 125px 37px); }
+#hdContact { text-indent: -1000em; @include size(113px 25px); @include retina-image('../img/about/hd-contact_us', 113px 25px); }
+#btnHistory, #btnCompany { text-indent: -1000em; display: inline-block;  @include retina-image('../img/about/tabs-about', 268px 112px); }
+#btnHistory { @include size(90px 56px); background-position: 0 0; margin-right: 10px;
+	&:hover, .ui-state-active & {background-position: 0px -56px;  }
+}
+.about section.contact { margin: 10px 45px 0; padding-top: 10px; position: relative; background: url('../img/about/line-paper.png') no-repeat;
+	h3 { margin-bottom: 5px; }
+	img { position: absolute; top: 67px; }
+	p { text-indent: 0; padding-left: 120px; line-height: 1.4; font-weight:bold;  }
+}
+#btnCompany { @include size(165px 56px); background-position: -104px 1px; 
+	&:hover, .ui-state-active & { background-position: -104px -56px; }
+}
+.about #company { padding-right: 35px; display: none; }
 
+// ================= End About Page =================
+
+//  ================= Fun Zone Page =================
+.funzone body { background-image: url('../img/funzone/bg-body.jpg'); background-position: center bottom;  }
+.funzone article { @include size(629px 551px); background: url('../img/funzone/bg-paper.png') no-repeat; position: absolute; top: 50%; left:50%; margin: -278px 0 0 -478px; 
+	section { padding: 62px 60px 0 65px; }
+}
+#txt-funzone { @extend .ir; @include size(125px 32px); @include retina-image('../img/funzone/txt-funzone', 125px 32px);  }
+.justify { text-align: justify; padding: 0 5px; }
+.border { display:inline-block; background-color: #fff; padding: 7px; margin-bottom: 20px; @include box-shadow(0 1px 1px rgba(7,7,7,.15))}
+
+// ================= End Fun Zone Page =================
 
 //OLD IE
-
 .no-csstransitions figcaption.show { @include opacity(1); }

@@ -286,7 +286,7 @@ main { width: 100%; height: 100%; min-width: $w-slider;
 	h2 { margin: 0 0 20px 40px;  }
 }
 
-#tabnav { position:absolute; margin: 0; padding:0; list-style: none; white-space: nowrap; right: 20px; top: 40px;
+#tabnav { position:absolute; margin: 0; padding:0; list-style: none; white-space: nowrap; right: 20px; top: 40px; display: none;
 	li { display: inline-block; }
 }
 #hdAbout { text-indent: -1000em; @include size(125px 37px); @include retina-image('../img/about/txt-about_us', 125px 37px); }
@@ -324,7 +324,7 @@ $link: #4d412f;
 	#txt-funzone-animation { @extend .ir; @include size(262px 32px); @include retina-image('../img/funzone/txt-funzone-animation', 262px 32px); }
 	#txt-funzone-wallpaper { @extend .ir; @include size(260px 35px); @include retina-image('../img/funzone/txt-funzone-wallpaper', 260px 35px); }
 	#txt-funzone-flashgame { @extend .ir; @include size(276px 34px); @include retina-image('../img/funzone/txt-funzone-flashgame', 276px 34px); position: relative; top: -2px; }
-	#txt-back {  @extend .ir; @include size(69px 27px); @include retina-image('../img/funzone/txt-back', 69px 27px); position: absolute; top: 85px; right:70px; }
+	#txt-back {  @extend .ir; @include size(69px 27px); @include retina-image('../img/funzone/txt-back', 69px 27px); position: absolute; top: 85px; right:70px; display:none; }
 
 	.justify { text-align: justify; padding: 0 5px; }
 	.border { display:inline-block; background-color: #fff; padding: 7px; margin-bottom: 20px; @include box-shadow(0 1px 1px rgba(7,7,7,.15))}
@@ -340,6 +340,14 @@ $link: #4d412f;
 			img { float: right; margin-left: 5px; }
 		}
 		select { color: $link; }
+		.chosen-container { left: 5px; 
+			.chosen-results li { font-size: em(24); @include font-smoothing(antialiased);  }
+		}
+		.chosen-container-single .chosen-single { 
+			span { color: $link; font-size: em(22); font-weight: 400; @include font-smoothing(antialiased); }
+			div b:before { content: '▼'; color: $link; line-height: 28px; @include transform(scaleX(1.3)); display:inline-block; font-size: 10px; }
+		}
+		.chosen-results > li:first-child { display:none; }
 	}
 	#flashgame { text-align: center; }
 }
@@ -355,3 +363,6 @@ $link: #4d412f;
 
 //OLD IE
 .no-csstransitions figcaption.show { @include opacity(1); }
+
+// Remove Language Button
+.home #lang, .about #lang, .funzone #lang { display:none; }

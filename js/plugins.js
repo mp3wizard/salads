@@ -30,4 +30,10 @@ jQuery(document).ready(function($) {
       delegate: 'a',
       type: 'iframe'
     });
+
+    $('#wallpaper select').chosen({ 
+        disable_search: true,
+        width: '135px',
+        placeholder_text_single: 'Select Size'
+    })
 });

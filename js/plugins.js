@@ -24,4 +24,10 @@
 // Place any jQuery/helper plugins in here.
 jQuery(document).ready(function($) { 
     $('#tabs').tabs( { hide: { effect: "fade", duration: 400 }, show: { effect: "fade", duration: 400 } } );
+
+    // Animation Popup
+    $('#animation').magnificPopup({
+      delegate: 'a',
+      type: 'iframe'
+    });
 });

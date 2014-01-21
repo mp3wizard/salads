@@ -1,9 +1,13 @@
-html, body { width: 100%; height: 100%; }
+html, body { width: 100%; height: 100%; 
+	@include media(max-height $h-min-home) {
+		height: auto;
+	}
+}
 body { font-family: Helvetica, Arial; background-repeat: no-repeat; background-position: center center }
 .ir { display: block; text-indent: -1000em; }
 
 #btnBack { display:block; position: fixed; left: 20px; top: 0; @include retina-image('../img/btn-back', 78px 90px); @include size(78px 90px); text-indent: -1000em; z-index: 99;  }
-footer { position: fixed; top: auto; bottom: 0; width: 100%; background: url('../img/bg-footer.png') no-repeat center bottom; height: $h-footer; z-index: 2;  color: #fff;
+body>footer { position: fixed; top: auto; bottom: 0; width: 100%; background: url('../img/bg-footer.png') no-repeat center bottom; height: $h-footer; z-index: 2;  color: #fff;
 	&:before { position:absolute; content: ''; @include size(358px 126px); display:block; bottom: 0; left: 50%; @include retina-image('../img/bg-download', 358px 126px); margin-left: 20px; }
 
 	h1 { margin: 0; }
@@ -269,12 +273,17 @@ main { width: 100%; height: 100%; min-width: $w-slider;
 
 //  ============ About Page ============
 .about body { background-image: url('../img/about/bg-body.jpg'); background-position: center bottom;  }
-.about article { @include size(574px 516px); background: url('../img/about/bg-paper.png') no-repeat; position: absolute; top: 50%; left:50%; margin: -271px 0 0 -90px; color: #4d412f;font-size: 13px; text-align: justify; @include text-align-last(left);
+.about article { @include size(574px 516px); background: url('../img/about/bg-paper.png') no-repeat;  color: #4d412f;font-size: 13px; text-align: justify; @include text-align-last(left); padding-top: 45px; position: relative; left: 50%; margin-left: -90px;
 	
-	.detail { height: 220px; overflow: auto; margin-right: 25px; }
+	@include media(min-height $h-min-home) {
+		 position: absolute; top:auto; bottom: 180px; left:50%; margin: 0 0 0 -90px;
+	}
+	
+
+	.detail { height: 220px; overflow: auto; margin-right: 25px;  }
 	
 	p { margin: 0 15px 0 45px; text-indent: 35px; line-height: 1.7; }
-	h2 { margin: 45px 0 20px 40px  }
+	h2 { margin: 0 0 20px 40px;  }
 }
 
 #tabnav { position:absolute; margin: 0; padding:0; list-style: none; white-space: nowrap; right: 20px; top: 40px;
@@ -299,13 +308,48 @@ main { width: 100%; height: 100%; min-width: $w-slider;
 // ================= End About Page =================
 
 //  ================= Fun Zone Page =================
-.funzone body { background-image: url('../img/funzone/bg-body.jpg'); background-position: center bottom;  }
-.funzone article { @include size(629px 551px); background: url('../img/funzone/bg-paper.png') no-repeat; position: absolute; top: 50%; left:50%; margin: -278px 0 0 -478px; 
-	section { padding: 62px 60px 0 65px; }
+$link: #4d412f;
+.funzone {
+
+	body { background-image: url('../img/funzone/bg-body.jpg'); background-position: center bottom;  } 
+	article { @include size(629px 551px); background: url('../img/funzone/bg-paper.png') no-repeat; position:relative; left: 50%; margin: 0 0 0 -475px; color: #4d412f; 
+		@include media(min-height $h-min-home) {
+			 position: absolute; top:auto; bottom: 175px; left:50%; 
+		}
+
+		section { padding: 62px 60px 0 65px; }
+		h2 { margin-bottom: 30px; }
+	}
+	#txt-funzone { @extend .ir; @include size(125px 32px); @include retina-image('../img/funzone/txt-funzone', 125px 32px);  }
+	#txt-funzone-animation { @extend .ir; @include size(262px 32px); @include retina-image('../img/funzone/txt-funzone-animation', 262px 32px); }
+	#txt-funzone-wallpaper { @extend .ir; @include size(260px 35px); @include retina-image('../img/funzone/txt-funzone-wallpaper', 260px 35px); }
+	#txt-funzone-flashgame { @extend .ir; @include size(276px 34px); @include retina-image('../img/funzone/txt-funzone-flashgame', 276px 34px); position: relative; top: -2px; }
+	#txt-back {  @extend .ir; @include size(69px 27px); @include retina-image('../img/funzone/txt-back', 69px 27px); position: absolute; top: 85px; right:70px; }
+
+	.justify { text-align: justify; padding: 0 5px; }
+	.border { display:inline-block; background-color: #fff; padding: 7px; margin-bottom: 20px; @include box-shadow(0 1px 1px rgba(7,7,7,.15))}
+
+	#animation, #wallpaper {  font-family: 'JS Noklae';  
+		.border { padding: 5px; margin-bottom: 8px; } 
+		figure { display: block; float: left; width: 158px; margin-bottom: 5px;
+			img.border { @include size(158px 120px); }
+		}
+		>figure:nth-child(3n-1) { margin: 0 15px 5px; }
+		>figure:nth-child(3n+1) { clear: left; }
+		figcaption {  padding: 0 2px 0 5px; font-size: em(19); line-height: .8; 
+			img { float: right; margin-left: 5px; }
+		}
+		select { color: $link; }
+	}
+	#flashgame { text-align: center; }
 }
-#txt-funzone { @extend .ir; @include size(125px 32px); @include retina-image('../img/funzone/txt-funzone', 125px 32px);  }
-.justify { text-align: justify; padding: 0 5px; }
-.border { display:inline-block; background-color: #fff; padding: 7px; margin-bottom: 20px; @include box-shadow(0 1px 1px rgba(7,7,7,.15))}
+.pagination {  font-family: 'JS Noklae'; font-size: em(25);line-height: 33px; text-align: center; clear: both; position: relative; top: 5px;
+	 position: absolute; left: 0; right: 0; top: auto; bottom: 38px;
+	a { text-decoration: none; color: $link; display: inline-block; @include size(36px 33px); text-align: center; 
+		&.active { @include retina-image('../img/funzone/bg-page-active', 36px 33px); }
+		&:hover { color: lighten($link, 10%); }
+	}
+}
 
 // ================= End Fun Zone Page =================
 

@@ -2996,6 +2996,9 @@ main {
     font-size: 10px; }
   .funzone #animation .chosen-results > li:first-child, .funzone #wallpaper .chosen-results > li:first-child {
     display: none; }
+.funzone #animation {
+  position: relative;
+  top: -15px; }
 .funzone #flashgame {
   text-align: center; }
 

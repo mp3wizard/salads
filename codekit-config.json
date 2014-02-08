@@ -61,18 +61,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/scss\/mixin\/bourbon\/bourbon\/addons\/_button.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/addons\/_button.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css\/_button.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/scss\/mixin\/bourbon\/addons\/_position.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -82,6 +70,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css\/_position.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/scss\/mixin\/bourbon\/bourbon\/addons\/_button.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/addons\/_button.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css\/_button.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -218,17 +218,6 @@
       "initialSize" : 15284,
       "fileType" : 8192
     },
-    "\/img\/btn-back.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/btn-back.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/btn-back.png",
-      "initialSize" : 5248,
-      "fileType" : 8192
-    },
     "\/img\/world\/bg-body.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -239,6 +228,17 @@
       "outputAbbreviatedPath" : "\/img\/world\/bg-body.jpg",
       "initialSize" : 217067,
       "fileType" : 4096
+    },
+    "\/img\/btn-back.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/btn-back.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/btn-back.png",
+      "initialSize" : 5248,
+      "fileType" : 8192
     },
     "\/img\/friend\/name\/main\/n-jaja@2x.png" : {
       "ignoreWasSetByUser" : 0,
@@ -356,17 +356,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/scss\/mixin\/bourbon\/css3\/_appearance.scss" : {
+    "\/img\/world\/cover.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css3\/_appearance.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css\/_appearance.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/img\/world\/cover.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/world\/cover.png",
+      "initialSize" : 111852,
+      "fileType" : 8192
     },
     "\/img\/funzone\/bg-page-active.png" : {
       "ignoreWasSetByUser" : 0,
@@ -379,16 +378,17 @@
       "initialSize" : 1500,
       "fileType" : 8192
     },
-    "\/img\/world\/cover.png" : {
+    "\/scss\/mixin\/bourbon\/css3\/_appearance.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/world\/cover.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/world\/cover.png",
-      "initialSize" : 111852,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css3\/_appearance.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css\/_appearance.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/img\/world\/world-diy.png" : {
       "ignoreWasSetByUser" : 0,
@@ -425,15 +425,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/scss\/mixin\/bourbon\/bourbon\/css3\/_border-image.scss" : {
+    "\/scss\/mixin\/bourbon\/bourbon\/css3\/_image-rendering.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css3\/_border-image.scss",
+      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css3\/_image-rendering.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css\/_border-image.css",
+      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css\/_image-rendering.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -449,15 +449,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/scss\/mixin\/bourbon\/bourbon\/css3\/_image-rendering.scss" : {
+    "\/scss\/mixin\/bourbon\/bourbon\/css3\/_border-image.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css3\/_image-rendering.scss",
+      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css3\/_border-image.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css\/_image-rendering.css",
+      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css\/_border-image.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -610,6 +610,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/th\/flashgame.kit" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/th\/flashgame.kit",
+      "outputAbbreviatedPath" : "\/th\/flashgame.html",
+      "fileType" : 65536
+    },
     "\/scss\/mixin\/bourbon\/bourbon\/addons\/_triangle.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -621,15 +630,6 @@
       "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css\/_triangle.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/th\/flashgame.kit" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/th\/flashgame.kit",
-      "outputAbbreviatedPath" : "\/th\/flashgame.html",
-      "fileType" : 65536
     },
     "\/scss\/mixin\/bourbon\/bourbon\/css3\/_transform.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -666,15 +666,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/scss\/mixin\/bourbon\/css3\/_placeholder.scss" : {
+    "\/scss\/mixin\/bourbon\/bourbon\/css3\/_user-select.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css3\/_placeholder.scss",
+      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css3\/_user-select.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css\/_placeholder.css",
+      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css\/_user-select.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -689,15 +689,15 @@
       "initialSize" : 872,
       "fileType" : 8192
     },
-    "\/scss\/mixin\/bourbon\/bourbon\/css3\/_user-select.scss" : {
+    "\/scss\/mixin\/bourbon\/css3\/_placeholder.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css3\/_user-select.scss",
+      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css3\/_placeholder.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css\/_user-select.css",
+      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css\/_placeholder.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1170,17 +1170,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/img\/friend\/leaf.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/friend\/leaf.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/friend\/leaf.png",
-      "initialSize" : 74958,
-      "fileType" : 8192
-    },
     "\/js\/vendor\/jquery.royalslider.min.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -1191,6 +1180,17 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/vendor\/jquery.royalslider.min.min.js",
       "fileType" : 64
+    },
+    "\/img\/friend\/leaf.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/friend\/leaf.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/friend\/leaf.png",
+      "initialSize" : 74958,
+      "fileType" : 8192
     },
     "\/en\/about.html" : {
       "ignoreWasSetByUser" : 0,
@@ -1781,17 +1781,14 @@
       "initialSize" : 26769,
       "fileType" : 8192
     },
-    "\/scss\/mixin\/bourbon\/css3\/_flex-box.scss" : {
+    "\/th\/about.kit" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css3\/_flex-box.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css\/_flex-box.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/th\/about.kit",
+      "outputAbbreviatedPath" : "\/th\/about.html",
+      "fileType" : 65536
     },
     "\/en\/friend.html" : {
       "ignoreWasSetByUser" : 0,
@@ -1801,17 +1798,6 @@
       "inputAbbreviatedPath" : "\/en\/friend.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/img\/friend\/name\/main\/n-punpun@2x.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-punpun@2x.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-punpun@2x.png",
-      "initialSize" : 2582,
-      "fileType" : 8192
     },
     "\/scss\/mixin\/bourbon\/helpers\/_radial-positions-parser.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1825,14 +1811,28 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/th\/about.kit" : {
+    "\/img\/friend\/name\/main\/n-punpun@2x.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/th\/about.kit",
-      "outputAbbreviatedPath" : "\/th\/about.html",
-      "fileType" : 65536
+      "inputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-punpun@2x.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-punpun@2x.png",
+      "initialSize" : 2582,
+      "fileType" : 8192
+    },
+    "\/scss\/mixin\/bourbon\/css3\/_flex-box.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css3\/_flex-box.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css\/_flex-box.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/scss\/mixin\/bourbon\/_bourbon-deprecated-upcoming.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1869,17 +1869,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/scss\/mixin\/bourbon\/css3\/_linear-gradient.scss" : {
+    "\/img\/funzone\/txt-funzone.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css3\/_linear-gradient.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css\/_linear-gradient.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/img\/funzone\/txt-funzone.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/funzone\/txt-funzone.png",
+      "initialSize" : 1623,
+      "fileType" : 8192
     },
     "\/img\/bg-lang.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1892,14 +1891,17 @@
       "initialSize" : 958,
       "fileType" : 8192
     },
-    "\/th\/index.html" : {
+    "\/scss\/mixin\/bourbon\/bourbon\/css3\/_box-sizing.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/th\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css3\/_box-sizing.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css\/_box-sizing.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/css\/print.css" : {
       "ignoreWasSetByUser" : 0,
@@ -1910,26 +1912,24 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/img\/funzone\/txt-funzone.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/funzone\/txt-funzone.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/funzone\/txt-funzone.png",
-      "initialSize" : 1623,
-      "fileType" : 8192
-    },
-    "\/scss\/mixin\/bourbon\/bourbon\/css3\/_box-sizing.scss" : {
+    "\/th\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css3\/_box-sizing.scss",
+      "inputAbbreviatedPath" : "\/th\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/scss\/mixin\/bourbon\/css3\/_linear-gradient.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css3\/_linear-gradient.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css\/_box-sizing.css",
+      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css\/_linear-gradient.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -2053,17 +2053,6 @@
       "outputAbbreviatedPath" : "\/js\/vendor\/jquery.easing.1.3.min.js",
       "fileType" : 64
     },
-    "\/img\/funzone\/txt-funzone-wallpaper.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/funzone\/txt-funzone-wallpaper.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/funzone\/txt-funzone-wallpaper.png",
-      "initialSize" : 2717,
-      "fileType" : 8192
-    },
     "\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -2072,6 +2061,17 @@
       "inputAbbreviatedPath" : "\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/img\/friend\/character\/other\/c-pubbit@2x.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/friend\/character\/other\/c-pubbit@2x.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/friend\/character\/other\/c-pubbit@2x.png",
+      "initialSize" : 62040,
+      "fileType" : 8192
     },
     "\/scss\/mixin\/bourbon\/bourbon\/css3\/_keyframes.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -2097,15 +2097,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/img\/friend\/character\/other\/c-pubbit@2x.png" : {
+    "\/img\/funzone\/txt-funzone-wallpaper.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/friend\/character\/other\/c-pubbit@2x.png",
+      "inputAbbreviatedPath" : "\/img\/funzone\/txt-funzone-wallpaper.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/friend\/character\/other\/c-pubbit@2x.png",
-      "initialSize" : 62040,
+      "outputAbbreviatedPath" : "\/img\/funzone\/txt-funzone-wallpaper.png",
+      "initialSize" : 2717,
       "fileType" : 8192
     },
     "\/img\/bullet-lang@2x.png" : {
@@ -2306,17 +2306,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/scss\/mixin\/bourbon\/bourbon\/css3\/_radial-gradient.scss" : {
+    "\/img\/friend\/character\/main\/c-dindin.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css3\/_radial-gradient.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css\/_radial-gradient.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-dindin.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-dindin.png",
+      "initialSize" : 70954,
+      "fileType" : 8192
     },
     "\/scss\/mixin\/bourbon\/css3\/_hidpi-media-query.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -2330,15 +2329,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/img\/friend\/character\/main\/c-dindin.png" : {
+    "\/img\/friend\/character\/main\/c-supernode.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-dindin.png",
+      "inputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-supernode.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-dindin.png",
-      "initialSize" : 70954,
+      "outputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-supernode.png",
+      "initialSize" : 45126,
       "fileType" : 8192
     },
     "\/en\/about.kit" : {
@@ -2350,15 +2349,15 @@
       "outputAbbreviatedPath" : "\/en\/about.html",
       "fileType" : 65536
     },
-    "\/img\/friend\/character\/main\/c-supernode.png" : {
+    "\/img\/chosen-sprite.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-supernode.png",
+      "inputAbbreviatedPath" : "\/img\/chosen-sprite.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-supernode.png",
-      "initialSize" : 45126,
+      "outputAbbreviatedPath" : "\/img\/chosen-sprite.png",
+      "initialSize" : 646,
       "fileType" : 8192
     },
     "\/scss\/mixin\/bourbon\/bourbon\/functions\/_compact.scss" : {
@@ -2382,16 +2381,17 @@
       "outputAbbreviatedPath" : "\/en\/animation.html",
       "fileType" : 65536
     },
-    "\/img\/chosen-sprite.png" : {
+    "\/scss\/mixin\/bourbon\/bourbon\/css3\/_radial-gradient.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/chosen-sprite.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/chosen-sprite.png",
-      "initialSize" : 646,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css3\/_radial-gradient.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css\/_radial-gradient.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/scss\/mixin\/bourbon\/bourbon\/helpers\/_radial-arg-parser.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -2791,38 +2791,35 @@
       "outputAbbreviatedPath" : "\/js\/vendor\/jquery.chosen.min.js",
       "fileType" : 64
     },
-    "\/img\/friend\/character\/other\/c-mapa_mamoo@2x.png" : {
+    "\/img\/btn-back@2x.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/friend\/character\/other\/c-mapa_mamoo@2x.png",
+      "inputAbbreviatedPath" : "\/img\/btn-back@2x.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/friend\/character\/other\/c-mapa_mamoo@2x.png",
-      "initialSize" : 392459,
+      "outputAbbreviatedPath" : "\/img\/btn-back@2x.png",
+      "initialSize" : 14284,
       "fileType" : 8192
     },
-    "\/scss\/mixin\/bourbon\/bourbon\/helpers\/_shape-size-stripper.scss" : {
+    "\/th\/wallpaper.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/helpers\/_shape-size-stripper.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css\/_shape-size-stripper.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/th\/wallpaper.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
-    "\/scss\/mixin\/bourbon\/functions\/_tint-shade.scss" : {
+    "\/scss\/mixin\/bourbon\/bourbon\/helpers\/_radial-positions-parser.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/functions\/_tint-shade.scss",
+      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/helpers\/_radial-positions-parser.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css\/_tint-shade.css",
+      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css\/_radial-positions-parser.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -2861,16 +2858,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/js\/vendor\/modernizr-2.7.1.min.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
+    "\/img\/friend\/character\/other\/c-mapa_mamoo@2x.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/vendor\/modernizr-2.7.1.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/vendor\/modernizr-2.7.1.min.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/img\/friend\/character\/other\/c-mapa_mamoo@2x.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/friend\/character\/other\/c-mapa_mamoo@2x.png",
+      "initialSize" : 392459,
+      "fileType" : 8192
     },
     "\/scss\/mixin\/bourbon\/bourbon\/addons\/_prefixer.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -2884,14 +2881,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/th\/animation.kit" : {
+    "\/scss\/mixin\/bourbon\/bourbon\/helpers\/_shape-size-stripper.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/th\/animation.kit",
-      "outputAbbreviatedPath" : "\/th\/animation.html",
-      "fileType" : 65536
+      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/helpers\/_shape-size-stripper.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css\/_shape-size-stripper.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/js\/vendor\/selectivizr.min.js" : {
       "ignoreWasSetByUser" : 1,
@@ -2916,6 +2916,30 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/scss\/mixin\/bourbon\/css3\/_inline-block.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css3\/_inline-block.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css\/_inline-block.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/scss\/mixin\/bourbon\/functions\/_tint-shade.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/functions\/_tint-shade.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css\/_tint-shade.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/scss\/mixin\/bourbon\/bourbon\/addons\/_font-family.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -2928,37 +2952,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/th\/wallpaper.html" : {
-      "ignoreWasSetByUser" : 0,
+    "\/js\/vendor\/modernizr-2.7.1.min.js" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/th\/wallpaper.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/scss\/mixin\/bourbon\/bourbon\/helpers\/_radial-positions-parser.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/helpers\/_radial-positions-parser.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css\/_radial-positions-parser.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/img\/btn-back@2x.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/btn-back@2x.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/btn-back@2x.png",
-      "initialSize" : 14284,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/js\/vendor\/modernizr-2.7.1.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/vendor\/modernizr-2.7.1.min.min.js",
+      "fileType" : 64
     },
     "\/scss\/screen.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -3016,17 +3019,14 @@
       "initialSize" : 2556,
       "fileType" : 8192
     },
-    "\/scss\/mixin\/bourbon\/css3\/_inline-block.scss" : {
+    "\/th\/animation.kit" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css3\/_inline-block.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css\/_inline-block.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/th\/animation.kit",
+      "outputAbbreviatedPath" : "\/th\/animation.html",
+      "fileType" : 65536
     },
     "\/th\/flashgame.html" : {
       "ignoreWasSetByUser" : 0,

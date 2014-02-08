@@ -36,4 +36,9 @@ jQuery(document).ready(function($) {
         width: '135px',
         placeholder_text_single: 'Select Size'
     })
+
+    $('#wallpaper select').on('change', function(evt, params) {
+        var value = $(this).val();
+        window.open(value);
+    });
 });

@@ -4,7 +4,7 @@ jQuery(document).ready(function($) {
         infiniteLoop: false,
         pager: false
     });
-
+    //show balloon
     $('figure>img').each(function(){
         $(this).on('touch mouseover', function(e){
             $('figcaption').removeClass('show');
@@ -13,7 +13,39 @@ jQuery(document).ready(function($) {
             e.preventDefault();
         });
     });
-    
+
+    //Momelon Baloon
+    $('.momelon-right').on('touch mouseover', function(e){
+      $('figcaption').removeClass('show');
+      $('figcaption.show').addClass('hide');
+      $('#c-momelon').addClass('show');
+      e.preventDefault();
+    });
+
+    // The Gang
+    $('.momelon-left').on('touch mouseover', function(e){
+      $('figcaption').removeClass('show');
+      $('figcaption.show').addClass('hide');
+      $('#c-gang').addClass('show');
+      e.preventDefault();
+    });
+    // Dr. Vann
+    $('.dr_vann-left').on('touch mouseover', function(e){
+      $('figcaption').removeClass('show');
+      $('figcaption.show').addClass('hide');
+      $('#dr_vann').addClass('show');
+      e.preventDefault();
+    });
+
+    // I-Pong
+    $('.dr_vann-right').on('touch mouseover', function(e){
+      $('figcaption').removeClass('show');
+      $('figcaption.show').addClass('hide');
+      $('#i-pong').addClass('show');
+      e.preventDefault();
+    });
+
+    //Close button
     $('figcaption a').each(function(){
         $(this).on('click', function(e){
             $('figcaption').removeClass('show');
@@ -33,7 +65,7 @@ jQuery(document).ready(function($) {
 
     //     e.preventDefault()
     // })
-    
+
     var doSlider = function(){
 		$('.royalSlider').royalSlider({
 			controlNavigation: false,
@@ -50,7 +82,7 @@ jQuery(document).ready(function($) {
 
 		var slider = $(".royalSlider").data('royalSlider');
 
-		
+
 		$('#nav-3').on('click touch', function(){
 			slider.goTo($('.munbear').parent().attr('index'));
 			$('#nav-2').parent('li').removeClass('active');
@@ -59,7 +91,7 @@ jQuery(document).ready(function($) {
 				$('figcaption').removeClass('show'); 
 				$('.munbear').find('figcaption').addClass('show');
 			}, 600);
-			
+
 		});
 
 		$('#nav-2').on('click touch', function(){

@@ -2,6 +2,17 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8403",
   "files" : {
+    "\/img\/world\/world-about_over.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/world\/world-about_over.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/world\/world-about_over.png",
+      "initialSize" : 29094,
+      "fileType" : 8192
+    },
     "\/scss\/mixin\/bourbon\/css3\/_keyframes.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -61,18 +72,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/scss\/mixin\/bourbon\/addons\/_position.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/addons\/_position.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css\/_position.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/scss\/mixin\/bourbon\/bourbon\/addons\/_button.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -82,6 +81,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css\/_button.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/scss\/mixin\/bourbon\/addons\/_position.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/addons\/_position.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css\/_position.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -96,6 +107,17 @@
       "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css\/_radial-gradient.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/img\/world\/world-about.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/world\/world-about.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/world\/world-about.png",
+      "initialSize" : 18480,
+      "fileType" : 8192
     },
     "\/img\/rs-default.png" : {
       "ignoreWasSetByUser" : 0,
@@ -116,7 +138,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-sasa.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-sasa.png",
-      "initialSize" : 44282,
+      "initialSize" : 47006,
       "fileType" : 8192
     },
     "\/img\/world\/world-news_update.png" : {
@@ -163,6 +185,17 @@
       "outputAbbreviatedPath" : "\/en\/funzone.html",
       "fileType" : 65536
     },
+    "\/img\/world\/world-salads_fun.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/world\/world-salads_fun.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/world\/world-salads_fun.png",
+      "initialSize" : 9220,
+      "fileType" : 8192
+    },
     "\/img\/friend\/character\/main\/c-sasa@2x.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -171,7 +204,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-sasa@2x.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-sasa@2x.png",
-      "initialSize" : 126138,
+      "initialSize" : 66448,
       "fileType" : 8192
     },
     "\/en\/flashgame.kit" : {
@@ -183,18 +216,6 @@
       "outputAbbreviatedPath" : "\/en\/flashgame.html",
       "fileType" : 65536
     },
-    "\/scss\/mixin\/bourbon\/bourbon\/css3\/_linear-gradient.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css3\/_linear-gradient.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css\/_linear-gradient.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/scss\/normalize.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -204,6 +225,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/css\/normalize.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/scss\/mixin\/bourbon\/bourbon\/css3\/_linear-gradient.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css3\/_linear-gradient.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css\/_linear-gradient.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -248,7 +281,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-jaja@2x.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-jaja@2x.png",
-      "initialSize" : 1911,
+      "initialSize" : 1775,
       "fileType" : 8192
     },
     "\/img\/funzone\/animation\/thumb-04.jpg" : {
@@ -294,7 +327,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/btn-slide_right.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/btn-slide_right.png",
-      "initialSize" : 6498,
+      "initialSize" : 7583,
       "fileType" : 8192
     },
     "\/img\/friend\/name\/main\/n-joopjip.png" : {
@@ -356,16 +389,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/img\/world\/cover.png" : {
+    "\/scss\/mixin\/bourbon\/css3\/_appearance.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/world\/cover.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/world\/cover.png",
-      "initialSize" : 111852,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css3\/_appearance.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css\/_appearance.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/img\/funzone\/bg-page-active.png" : {
       "ignoreWasSetByUser" : 0,
@@ -378,17 +412,16 @@
       "initialSize" : 1500,
       "fileType" : 8192
     },
-    "\/scss\/mixin\/bourbon\/css3\/_appearance.scss" : {
+    "\/img\/world\/cover.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css3\/_appearance.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css\/_appearance.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/img\/world\/cover.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/world\/cover.png",
+      "initialSize" : 111852,
+      "fileType" : 8192
     },
     "\/img\/world\/world-diy.png" : {
       "ignoreWasSetByUser" : 0,
@@ -425,15 +458,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/scss\/mixin\/bourbon\/bourbon\/css3\/_image-rendering.scss" : {
+    "\/scss\/mixin\/bourbon\/bourbon\/css3\/_border-image.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css3\/_image-rendering.scss",
+      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css3\/_border-image.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css\/_image-rendering.css",
+      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css\/_border-image.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -449,15 +482,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/scss\/mixin\/bourbon\/bourbon\/css3\/_border-image.scss" : {
+    "\/scss\/mixin\/bourbon\/bourbon\/css3\/_image-rendering.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css3\/_border-image.scss",
+      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css3\/_image-rendering.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css\/_border-image.css",
+      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css\/_image-rendering.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -492,7 +525,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/character\/other\/c-mapa_mamoo.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/character\/other\/c-mapa_mamoo.png",
-      "initialSize" : 131432,
+      "initialSize" : 135362,
       "fileType" : 8192
     },
     "\/scss\/vendor\/_jquery.bxslider.scss" : {
@@ -538,7 +571,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-fu.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-fu.png",
-      "initialSize" : 966,
+      "initialSize" : 943,
       "fileType" : 8192
     },
     "\/img\/friend\/character\/other\/c-munbear@2x.png" : {
@@ -549,7 +582,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/character\/other\/c-munbear@2x.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/character\/other\/c-munbear@2x.png",
-      "initialSize" : 293042,
+      "initialSize" : 180299,
       "fileType" : 8192
     },
     "\/scss\/mixin\/_text.scss" : {
@@ -572,7 +605,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-supernode@2x.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-supernode@2x.png",
-      "initialSize" : 133514,
+      "initialSize" : 66164,
       "fileType" : 8192
     },
     "\/scss\/mixin\/bourbon\/bourbon\/functions\/_px-to-em.scss" : {
@@ -595,7 +628,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-jaja.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-jaja.png",
-      "initialSize" : 1063,
+      "initialSize" : 994,
       "fileType" : 8192
     },
     "\/scss\/mixin\/bourbon\/bourbon\/css3\/_inline-block.scss" : {
@@ -610,15 +643,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/th\/flashgame.kit" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/th\/flashgame.kit",
-      "outputAbbreviatedPath" : "\/th\/flashgame.html",
-      "fileType" : 65536
-    },
     "\/scss\/mixin\/bourbon\/bourbon\/addons\/_triangle.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -630,6 +654,15 @@
       "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css\/_triangle.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/th\/flashgame.kit" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/th\/flashgame.kit",
+      "outputAbbreviatedPath" : "\/th\/flashgame.html",
+      "fileType" : 65536
     },
     "\/scss\/mixin\/bourbon\/bourbon\/css3\/_transform.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -666,6 +699,18 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/scss\/mixin\/bourbon\/css3\/_placeholder.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css3\/_placeholder.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css\/_placeholder.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/scss\/mixin\/bourbon\/bourbon\/css3\/_user-select.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -688,18 +733,6 @@
       "outputAbbreviatedPath" : "\/img\/chosen-sprite@2x.png",
       "initialSize" : 872,
       "fileType" : 8192
-    },
-    "\/scss\/mixin\/bourbon\/css3\/_placeholder.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css3\/_placeholder.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css\/_placeholder.css",
-      "fileType" : 4,
-      "debugStyle" : 0
     },
     "\/en\/funzone.html" : {
       "ignoreWasSetByUser" : 0,
@@ -738,7 +771,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-supernode@2x.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-supernode@2x.png",
-      "initialSize" : 4041,
+      "initialSize" : 4374,
       "fileType" : 8192
     },
     "\/js\/vendor\/url.js" : {
@@ -784,7 +817,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-jaja@2x.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-jaja@2x.png",
-      "initialSize" : 201289,
+      "initialSize" : 97296,
       "fileType" : 8192
     },
     "\/img\/friend\/name\/main\/n-dindin.png" : {
@@ -795,7 +828,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-dindin.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-dindin.png",
-      "initialSize" : 1617,
+      "initialSize" : 1286,
       "fileType" : 8192
     },
     "\/img\/friend\/character\/main\/c-joopjip@2x.png" : {
@@ -806,7 +839,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-joopjip@2x.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-joopjip@2x.png",
-      "initialSize" : 127247,
+      "initialSize" : 62052,
       "fileType" : 8192
     },
     "\/js\/plugins.min.js" : {
@@ -871,7 +904,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-dindin@2x.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-dindin@2x.png",
-      "initialSize" : 3085,
+      "initialSize" : 2452,
       "fileType" : 8192
     },
     "\/img\/friend\/name\/main\/n-homma@2x.png" : {
@@ -882,7 +915,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-homma@2x.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-homma@2x.png",
-      "initialSize" : 2927,
+      "initialSize" : 2863,
       "fileType" : 8192
     },
     "\/scss\/mixin\/bourbon\/functions\/_radial-gradient.scss" : {
@@ -973,17 +1006,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/img\/about\/bg-body.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/about\/bg-body.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/about\/bg-body.jpg",
-      "initialSize" : 166652,
-      "fileType" : 4096
-    },
     "\/img\/funzone\/flashgame\/img-flashgame.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -993,6 +1015,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/funzone\/flashgame\/img-flashgame.jpg",
       "initialSize" : 40583,
+      "fileType" : 4096
+    },
+    "\/img\/about\/bg-body.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/about\/bg-body.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/about\/bg-body.jpg",
+      "initialSize" : 166652,
       "fileType" : 4096
     },
     "\/scss\/main.scss" : {
@@ -1058,7 +1091,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-joopjip@2x.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-joopjip@2x.png",
-      "initialSize" : 2991,
+      "initialSize" : 3019,
       "fileType" : 8192
     },
     "\/img\/friend\/name\/other\/n-pubbit@2x.png" : {
@@ -1069,7 +1102,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/name\/other\/n-pubbit@2x.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/name\/other\/n-pubbit@2x.png",
-      "initialSize" : 3301,
+      "initialSize" : 3517,
       "fileType" : 8192
     },
     "\/img\/world\/world-fun_zone.png" : {
@@ -1102,7 +1135,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-punpun.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-punpun.png",
-      "initialSize" : 1342,
+      "initialSize" : 1269,
       "fileType" : 8192
     },
     "\/scss\/mixin\/bourbon\/bourbon\/helpers\/_linear-positions-parser.scss" : {
@@ -1170,17 +1203,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/js\/vendor\/jquery.royalslider.min.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/vendor\/jquery.royalslider.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/vendor\/jquery.royalslider.min.min.js",
-      "fileType" : 64
-    },
     "\/img\/friend\/leaf.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1191,6 +1213,17 @@
       "outputAbbreviatedPath" : "\/img\/friend\/leaf.png",
       "initialSize" : 74958,
       "fileType" : 8192
+    },
+    "\/js\/vendor\/jquery.royalslider.min.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/vendor\/jquery.royalslider.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/vendor\/jquery.royalslider.min.min.js",
+      "fileType" : 64
     },
     "\/en\/about.html" : {
       "ignoreWasSetByUser" : 0,
@@ -1229,7 +1262,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-momelon.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-momelon.png",
-      "initialSize" : 145518,
+      "initialSize" : 151518,
       "fileType" : 8192
     },
     "\/img\/banner-appstore.png" : {
@@ -1386,7 +1419,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-punpun@2x.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-punpun@2x.png",
-      "initialSize" : 110470,
+      "initialSize" : 55536,
       "fileType" : 8192
     },
     "\/img\/funzone\/bg-body.jpg" : {
@@ -1408,7 +1441,18 @@
       "inputAbbreviatedPath" : "\/img\/friend\/name\/other\/n-munbear@2x.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/name\/other\/n-munbear@2x.png",
-      "initialSize" : 3963,
+      "initialSize" : 3971,
+      "fileType" : 8192
+    },
+    "\/img\/world\/world-salads_fun_over.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/world\/world-salads_fun_over.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/world\/world-salads_fun_over.png",
+      "initialSize" : 22971,
       "fileType" : 8192
     },
     "\/scss\/mixin\/bourbon\/css3\/_box-sizing.scss" : {
@@ -1422,17 +1466,6 @@
       "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css\/_box-sizing.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/img\/friend\/character\/main\/c-joopjip.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-joopjip.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-joopjip.png",
-      "initialSize" : 76002,
-      "fileType" : 8192
     },
     "\/scss\/mixin\/bourbon\/css3\/_columns.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1457,6 +1490,17 @@
       "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css\/_perspective.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/img\/friend\/character\/main\/c-joopjip.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-joopjip.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-joopjip.png",
+      "initialSize" : 76002,
+      "fileType" : 8192
     },
     "\/img\/bg-footer.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1492,14 +1536,16 @@
       "initialSize" : 2948,
       "fileType" : 8192
     },
-    "\/th\/friend.kit" : {
+    "\/img\/bg-download@2x.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/th\/friend.kit",
-      "outputAbbreviatedPath" : "\/th\/friend.html",
-      "fileType" : 65536
+      "inputAbbreviatedPath" : "\/img\/bg-download@2x.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/bg-download@2x.png",
+      "initialSize" : 25951,
+      "fileType" : 8192
     },
     "\/js\/vendor\/jquery.bxslider.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1512,16 +1558,14 @@
       "outputAbbreviatedPath" : "\/js\/vendor\/jquery.bxslider.min.min.js",
       "fileType" : 64
     },
-    "\/img\/bg-download@2x.png" : {
+    "\/th\/friend.kit" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/bg-download@2x.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/bg-download@2x.png",
-      "initialSize" : 25951,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/th\/friend.kit",
+      "outputAbbreviatedPath" : "\/th\/friend.html",
+      "fileType" : 65536
     },
     "\/img\/friend\/character\/main\/c-punpun.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1531,7 +1575,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-punpun.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-punpun.png",
-      "initialSize" : 36320,
+      "initialSize" : 39676,
       "fileType" : 8192
     },
     "\/kit\/include\/_friend-list-bxslider.kit" : {
@@ -1632,7 +1676,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-homma.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-homma.png",
-      "initialSize" : 1519,
+      "initialSize" : 1479,
       "fileType" : 8192
     },
     "\/js\/vendor\/jquery.magnific-popup.js" : {
@@ -1724,17 +1768,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/img\/friend\/btn-close_balloon.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/friend\/btn-close_balloon.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/friend\/btn-close_balloon.png",
-      "initialSize" : 1015,
-      "fileType" : 8192
-    },
     "\/scss\/mixin\/bourbon\/bourbon\/functions\/_linear-gradient.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1747,6 +1780,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/img\/friend\/btn-close_balloon.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/friend\/btn-close_balloon.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/friend\/btn-close_balloon.png",
+      "initialSize" : 1015,
+      "fileType" : 8192
+    },
     "\/img\/friend\/name\/main\/n-dr_vann.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1755,7 +1799,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-dr_vann.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-dr_vann.png",
-      "initialSize" : 2029,
+      "initialSize" : 2034,
       "fileType" : 8192
     },
     "\/scss\/mixin\/bourbon\/bourbon\/css3\/_background.scss" : {
@@ -1781,23 +1825,28 @@
       "initialSize" : 26769,
       "fileType" : 8192
     },
-    "\/th\/about.kit" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/th\/about.kit",
-      "outputAbbreviatedPath" : "\/th\/about.html",
-      "fileType" : 65536
-    },
-    "\/en\/friend.html" : {
+    "\/scss\/mixin\/bourbon\/css3\/_flex-box.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/en\/friend.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css3\/_flex-box.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css\/_flex-box.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/img\/friend\/name\/main\/n-punpun@2x.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-punpun@2x.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-punpun@2x.png",
+      "initialSize" : 2448,
+      "fileType" : 8192
     },
     "\/scss\/mixin\/bourbon\/helpers\/_radial-positions-parser.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1811,28 +1860,23 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/img\/friend\/name\/main\/n-punpun@2x.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-punpun@2x.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-punpun@2x.png",
-      "initialSize" : 2582,
-      "fileType" : 8192
-    },
-    "\/scss\/mixin\/bourbon\/css3\/_flex-box.scss" : {
+    "\/en\/friend.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css3\/_flex-box.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css\/_flex-box.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/en\/friend.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/th\/about.kit" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/th\/about.kit",
+      "outputAbbreviatedPath" : "\/th\/about.html",
+      "fileType" : 65536
     },
     "\/scss\/mixin\/bourbon\/_bourbon-deprecated-upcoming.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1869,16 +1913,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/img\/funzone\/txt-funzone.png" : {
+    "\/scss\/mixin\/bourbon\/css3\/_linear-gradient.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/funzone\/txt-funzone.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/funzone\/txt-funzone.png",
-      "initialSize" : 1623,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css3\/_linear-gradient.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css\/_linear-gradient.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/img\/bg-lang.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1921,17 +1966,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/scss\/mixin\/bourbon\/css3\/_linear-gradient.scss" : {
+    "\/img\/funzone\/txt-funzone.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css3\/_linear-gradient.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css\/_linear-gradient.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/img\/funzone\/txt-funzone.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/funzone\/txt-funzone.png",
+      "initialSize" : 1623,
+      "fileType" : 8192
     },
     "\/th\/about.html" : {
       "ignoreWasSetByUser" : 0,
@@ -1977,15 +2021,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css\/main.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/main.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/img\/friend\/name\/main\/n-supernode.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1994,8 +2029,17 @@
       "inputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-supernode.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-supernode.png",
-      "initialSize" : 1991,
+      "initialSize" : 2142,
       "fileType" : 8192
+    },
+    "\/css\/main.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/main.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/scss\/mixin\/bourbon\/addons\/_button.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -2017,7 +2061,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/character\/other\/c-pubbit.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/character\/other\/c-pubbit.png",
-      "initialSize" : 21318,
+      "initialSize" : 23182,
       "fileType" : 8192
     },
     "\/img\/funzone\/txt-back.png" : {
@@ -2039,7 +2083,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/name\/other\/n-mapa_mamoo.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/name\/other\/n-mapa_mamoo.png",
-      "initialSize" : 2113,
+      "initialSize" : 2036,
       "fileType" : 8192
     },
     "\/js\/vendor\/jquery.easing.1.3.js" : {
@@ -2052,6 +2096,17 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/vendor\/jquery.easing.1.3.min.js",
       "fileType" : 64
+    },
+    "\/img\/funzone\/txt-funzone-wallpaper.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/funzone\/txt-funzone-wallpaper.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/funzone\/txt-funzone-wallpaper.png",
+      "initialSize" : 2717,
+      "fileType" : 8192
     },
     "\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -2070,20 +2125,8 @@
       "inputAbbreviatedPath" : "\/img\/friend\/character\/other\/c-pubbit@2x.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/character\/other\/c-pubbit@2x.png",
-      "initialSize" : 62040,
+      "initialSize" : 33292,
       "fileType" : 8192
-    },
-    "\/scss\/mixin\/bourbon\/bourbon\/css3\/_keyframes.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css3\/_keyframes.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css\/_keyframes.css",
-      "fileType" : 4,
-      "debugStyle" : 0
     },
     "\/scss\/mixin\/bourbon\/css3\/_border-image.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -2097,16 +2140,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/img\/funzone\/txt-funzone-wallpaper.png" : {
+    "\/scss\/mixin\/bourbon\/bourbon\/css3\/_keyframes.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/funzone\/txt-funzone-wallpaper.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/funzone\/txt-funzone-wallpaper.png",
-      "initialSize" : 2717,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css3\/_keyframes.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css\/_keyframes.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/img\/bullet-lang@2x.png" : {
       "ignoreWasSetByUser" : 0,
@@ -2170,7 +2214,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/character\/other\/c-munbear.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/character\/other\/c-munbear.png",
-      "initialSize" : 120625,
+      "initialSize" : 127482,
       "fileType" : 8192
     },
     "\/scss\/mixin\/bourbon\/functions\/_compact.scss" : {
@@ -2225,7 +2269,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-dr_vann@2x.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-dr_vann@2x.png",
-      "initialSize" : 228372,
+      "initialSize" : 116219,
       "fileType" : 8192
     },
     "\/scss\/mixin\/bourbon\/css3\/_transform.scss" : {
@@ -2260,7 +2304,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-momelon@2x.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-momelon@2x.png",
-      "initialSize" : 3703,
+      "initialSize" : 3631,
       "fileType" : 8192
     },
     "\/img\/friend\/character\/main\/c-dr_vann.png" : {
@@ -2271,7 +2315,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-dr_vann.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-dr_vann.png",
-      "initialSize" : 79535,
+      "initialSize" : 83092,
       "fileType" : 8192
     },
     "\/img\/friend\/character\/main\/c-momelon@2x.png" : {
@@ -2282,7 +2326,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-momelon@2x.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-momelon@2x.png",
-      "initialSize" : 432810,
+      "initialSize" : 211179,
       "fileType" : 8192
     },
     "\/kit\/include\/_footer_en.kit" : {
@@ -2306,16 +2350,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/img\/friend\/character\/main\/c-dindin.png" : {
+    "\/scss\/mixin\/bourbon\/bourbon\/css3\/_radial-gradient.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-dindin.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-dindin.png",
-      "initialSize" : 70954,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css3\/_radial-gradient.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css\/_radial-gradient.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/scss\/mixin\/bourbon\/css3\/_hidpi-media-query.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -2329,6 +2374,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/img\/friend\/character\/main\/c-dindin.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-dindin.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-dindin.png",
+      "initialSize" : 72416,
+      "fileType" : 8192
+    },
     "\/img\/friend\/character\/main\/c-supernode.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2337,28 +2393,17 @@
       "inputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-supernode.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-supernode.png",
-      "initialSize" : 45126,
+      "initialSize" : 47139,
       "fileType" : 8192
     },
-    "\/en\/about.kit" : {
+    "\/en\/animation.kit" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/en\/about.kit",
-      "outputAbbreviatedPath" : "\/en\/about.html",
+      "inputAbbreviatedPath" : "\/en\/animation.kit",
+      "outputAbbreviatedPath" : "\/en\/animation.html",
       "fileType" : 65536
-    },
-    "\/img\/chosen-sprite.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/chosen-sprite.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/chosen-sprite.png",
-      "initialSize" : 646,
-      "fileType" : 8192
     },
     "\/scss\/mixin\/bourbon\/bourbon\/functions\/_compact.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -2372,26 +2417,25 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/en\/animation.kit" : {
+    "\/img\/chosen-sprite.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/en\/animation.kit",
-      "outputAbbreviatedPath" : "\/en\/animation.html",
-      "fileType" : 65536
+      "inputAbbreviatedPath" : "\/img\/chosen-sprite.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/chosen-sprite.png",
+      "initialSize" : 646,
+      "fileType" : 8192
     },
-    "\/scss\/mixin\/bourbon\/bourbon\/css3\/_radial-gradient.scss" : {
+    "\/en\/about.kit" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css3\/_radial-gradient.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css\/_radial-gradient.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/en\/about.kit",
+      "outputAbbreviatedPath" : "\/en\/about.html",
+      "fileType" : 65536
     },
     "\/scss\/mixin\/bourbon\/bourbon\/helpers\/_radial-arg-parser.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -2413,7 +2457,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-homma.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-homma.png",
-      "initialSize" : 30799,
+      "initialSize" : 36657,
       "fileType" : 8192
     },
     "\/img\/about\/logo-byte@2x.png" : {
@@ -2468,7 +2512,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-dindin@2x.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-dindin@2x.png",
-      "initialSize" : 210015,
+      "initialSize" : 101909,
       "fileType" : 8192
     },
     "\/img\/friend\/name\/main\/n-sasa@2x.png" : {
@@ -2479,7 +2523,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-sasa@2x.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-sasa@2x.png",
-      "initialSize" : 1948,
+      "initialSize" : 1855,
       "fileType" : 8192
     },
     "\/th\/animation.html" : {
@@ -2568,15 +2612,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/th\/wallpaper.kit" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/th\/wallpaper.kit",
-      "outputAbbreviatedPath" : "\/th\/wallpaper.html",
-      "fileType" : 65536
-    },
     "\/kit\/include\/_header.kit" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -2584,6 +2619,15 @@
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/kit\/include\/_header.kit",
       "outputAbbreviatedPath" : "\/kit\/include\/_header.html",
+      "fileType" : 65536
+    },
+    "\/th\/wallpaper.kit" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/th\/wallpaper.kit",
+      "outputAbbreviatedPath" : "\/th\/wallpaper.html",
       "fileType" : 65536
     },
     "\/scss\/mixin\/bourbon\/helpers\/_render-gradients.scss" : {
@@ -2606,7 +2650,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-momelon.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-momelon.png",
-      "initialSize" : 1822,
+      "initialSize" : 1773,
       "fileType" : 8192
     },
     "\/img\/friend\/name\/main\/n-fu@2x.png" : {
@@ -2617,7 +2661,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-fu@2x.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-fu@2x.png",
-      "initialSize" : 1657,
+      "initialSize" : 1605,
       "fileType" : 8192
     },
     "\/img\/friend\/character\/main\/c-fu.png" : {
@@ -2628,7 +2672,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-fu.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-fu.png",
-      "initialSize" : 66028,
+      "initialSize" : 73137,
       "fileType" : 8192
     },
     "\/img\/funzone\/animation\/thumb-03.jpg" : {
@@ -2723,6 +2767,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/img\/world\/world-salads_friend_over.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/world\/world-salads_friend_over.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/world\/world-salads_friend_over.png",
+      "initialSize" : 46809,
+      "fileType" : 8192
+    },
     "\/img\/friend\/name\/main\/n-dr_vann@2x.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2742,7 +2797,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-fu@2x.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-fu@2x.png",
-      "initialSize" : 194777,
+      "initialSize" : 99710,
       "fileType" : 8192
     },
     "\/scss\/mixin\/bourbon\/bourbon\/css3\/_backface-visibility.scss" : {
@@ -2858,16 +2913,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/img\/friend\/character\/other\/c-mapa_mamoo@2x.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+    "\/js\/vendor\/modernizr-2.7.1.min.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/friend\/character\/other\/c-mapa_mamoo@2x.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/friend\/character\/other\/c-mapa_mamoo@2x.png",
-      "initialSize" : 392459,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/js\/vendor\/modernizr-2.7.1.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/vendor\/modernizr-2.7.1.min.min.js",
+      "fileType" : 64
     },
     "\/scss\/mixin\/bourbon\/bourbon\/addons\/_prefixer.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -2881,17 +2936,14 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/scss\/mixin\/bourbon\/bourbon\/helpers\/_shape-size-stripper.scss" : {
+    "\/th\/animation.kit" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/helpers\/_shape-size-stripper.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css\/_shape-size-stripper.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/th\/animation.kit",
+      "outputAbbreviatedPath" : "\/th\/animation.html",
+      "fileType" : 65536
     },
     "\/js\/vendor\/selectivizr.min.js" : {
       "ignoreWasSetByUser" : 1,
@@ -2928,40 +2980,39 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/scss\/mixin\/bourbon\/functions\/_tint-shade.scss" : {
+    "\/img\/salad_icon.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/salad_icon.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/salad_icon.png",
+      "initialSize" : 11006,
+      "fileType" : 8192
+    },
+    "\/img\/friend\/character\/other\/c-mapa_mamoo@2x.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/friend\/character\/other\/c-mapa_mamoo@2x.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/friend\/character\/other\/c-mapa_mamoo@2x.png",
+      "initialSize" : 185212,
+      "fileType" : 8192
+    },
+    "\/scss\/mixin\/bourbon\/bourbon\/helpers\/_shape-size-stripper.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/functions\/_tint-shade.scss",
+      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/helpers\/_shape-size-stripper.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css\/_tint-shade.css",
+      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css\/_shape-size-stripper.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/scss\/mixin\/bourbon\/bourbon\/addons\/_font-family.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/addons\/_font-family.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css\/_font-family.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/js\/vendor\/modernizr-2.7.1.min.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/vendor\/modernizr-2.7.1.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/vendor\/modernizr-2.7.1.min.min.js",
-      "fileType" : 64
     },
     "\/scss\/screen.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -3008,6 +3059,30 @@
       "initialSize" : 1654,
       "fileType" : 8192
     },
+    "\/scss\/mixin\/bourbon\/functions\/_tint-shade.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/functions\/_tint-shade.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/css\/_tint-shade.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/scss\/mixin\/bourbon\/bourbon\/addons\/_font-family.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/addons\/_font-family.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css\/_font-family.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/img\/funzone\/bg-page-active@2x.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3018,15 +3093,6 @@
       "outputAbbreviatedPath" : "\/img\/funzone\/bg-page-active@2x.png",
       "initialSize" : 2556,
       "fileType" : 8192
-    },
-    "\/th\/animation.kit" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/th\/animation.kit",
-      "outputAbbreviatedPath" : "\/th\/animation.html",
-      "fileType" : 65536
     },
     "\/th\/flashgame.html" : {
       "ignoreWasSetByUser" : 0,
@@ -3069,7 +3135,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-sasa.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/name\/main\/n-sasa.png",
-      "initialSize" : 1100,
+      "initialSize" : 1060,
       "fileType" : 8192
     },
     "\/scss\/vendor\/_royalslider.scss" : {
@@ -3258,7 +3324,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-jaja.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-jaja.png",
-      "initialSize" : 67898,
+      "initialSize" : 70245,
       "fileType" : 8192
     },
     "\/scss\/mixin\/bourbon\/bourbon\/css3\/_flex-box.scss" : {
@@ -3292,7 +3358,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/name\/other\/n-mapa_mamoo@2x.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/name\/other\/n-mapa_mamoo@2x.png",
-      "initialSize" : 3578,
+      "initialSize" : 3430,
       "fileType" : 8192
     },
     "\/scss\/mixin\/bourbon\/bourbon\/addons\/_hide-text.scss" : {
@@ -3337,7 +3403,18 @@
       "inputAbbreviatedPath" : "\/img\/friend\/name\/other\/n-pubbit.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/name\/other\/n-pubbit.png",
-      "initialSize" : 1667,
+      "initialSize" : 1737,
+      "fileType" : 8192
+    },
+    "\/img\/friend\/name\/other\/n-munbear.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/friend\/name\/other\/n-munbear.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/friend\/name\/other\/n-munbear.png",
+      "initialSize" : 1896,
       "fileType" : 8192
     },
     "\/scss\/mixin\/bourbon\/bourbon\/helpers\/_gradient-positions-parser.scss" : {
@@ -3351,17 +3428,6 @@
       "outputAbbreviatedPath" : "\/scss\/mixin\/bourbon\/bourbon\/css\/_gradient-positions-parser.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/img\/friend\/name\/other\/n-munbear.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/friend\/name\/other\/n-munbear.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/friend\/name\/other\/n-munbear.png",
-      "initialSize" : 1943,
-      "fileType" : 8192
     },
     "\/img\/world\/world-about_us.png" : {
       "ignoreWasSetByUser" : 0,
@@ -3382,7 +3448,7 @@
       "inputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-homma@2x.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/img\/friend\/character\/main\/c-homma@2x.png",
-      "initialSize" : 88236,
+      "initialSize" : 52600,
       "fileType" : 8192
     },
     "\/img\/funzone\/txt-funzone-animation.png" : {

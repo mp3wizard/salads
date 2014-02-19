@@ -2067,10 +2067,10 @@ body > footer {
       background-position: 0 7px;
       cursor: default; }
     body > footer nav #nav-2 {
-      width: 142px;
+      width: 150px;
       background-position: -199px 7px; }
     body > footer nav #nav-3 {
-      width: 141px;
+      width: 185px;
       background-position: right 7px; }
     body > footer nav #nav-1:hover, body > footer nav .active #nav-1 {
       background-position: 0 7px; }
@@ -2090,6 +2090,7 @@ body > footer {
   body > footer .googleplay {
     margin-left: 245px; }
   body > footer h2 {
+    white-space: nowrap;
     position: absolute;
     font-family: 'JS Noklae';
     font-size: 1.3125em;
@@ -2183,7 +2184,6 @@ main {
     position: absolute;
     left: 50%;
     top: 50%; }
-
   .home body #btnBack {
     display: none; }
   @media screen and (max-height: 42.1875em) {
@@ -2198,7 +2198,6 @@ main {
 #world-salads_friend {
   margin-left: -80px;
   margin-top: -75px; }
-
 
 #world-about {
   display: block;
@@ -2283,7 +2282,7 @@ main {
     display: inline-block;
     position: relative;
     cursor: pointer !important;
-    margin: auto 30px;
+    margin: auto 25px;
     height: 520px;
     vertical-align: top; }
     .rsContent figure > img {
@@ -2764,7 +2763,7 @@ main {
 
 .about article {
   width: 574px;
-  height: 516px;
+  height: 574px;
   background: url("../img/about/bg-paper.png") no-repeat;
   color: #4d412f;
   font-size: 13px;
@@ -2782,16 +2781,16 @@ main {
     .about article {
       position: absolute;
       top: auto;
-      bottom: 180px;
+      bottom: 105px;
       left: 50%;
       margin: 0 0 0 -90px; } }
   .about article .detail {
-    height: 220px;
+    height: 284px;
     overflow: auto;
     margin-right: 25px; }
   .about article p {
     margin: 0 15px 0 45px;
-    text-indent: 35px;
+    text-indent: 0px;
     line-height: 1.7; }
   .about article h2 {
     margin: 0 0 20px 40px; }
@@ -3065,11 +3064,14 @@ main {
 
   .dr_vann-left { left: 0; z-index: 3; width: 120px; }
   .dr_vann-right { right: 0; z-index: 2; width: 200px; }
-  #c-gang { top: 30px; left: -160px; }
+  #c-gang { top: 35px; left: -140px; }
 
   .royalSlider .dr_vann #dr_vann img { width: 133px!important; height: 33px!important;}
   .royalSlider .dr_vann #i-pong img { width: 109px!important; height: 47px!important;}
   #i-pong { margin-left: -110px; }
+
+  .rsContent { padding-left: 220px; }
+  .sasa { margin-right: 0!important; }
 
 
 /* ======== End ======== */

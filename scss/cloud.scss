@@ -1,0 +1,101 @@
+@import "bourbon";
+@import "mixin/opacity";
+
+/* Cloud Animation */
+.home body { @include retina-image('../img/world/bg-world', 2560px 1600px, jpg); background-repeat: no-repeat; background-position: center center; }
+
+@include keyframes(cloud-01) {
+  0% {
+    @include opacity(0);
+    @include transform(translateX(-100px));
+  }
+  2% {
+    @include opacity(1);
+  }
+  95% {
+    @include opacity(1);
+  }
+  100% {
+    @include opacity(0);
+    @include transform(translateX(800px));
+  }
+}
+
+@include keyframes(cloud-02) {
+  0% {
+    @include opacity(0);
+
+  }
+  3% {
+     @include transform(translateX(0px));
+    @include opacity(.55);
+  }
+  10% {
+   @include opacity(1);
+  }
+  98% {
+    @include opacity(1);
+  }
+  100% {
+    @include opacity(0);
+    @include transform(translateX(600px));
+  }
+}
+
+@include keyframes(cloud-03) {
+  0% {
+    @include opacity(0);
+  @include transform(translateX(0px));
+  }
+  3% {
+    @include opacity(1);
+  }
+  98% {
+    @include opacity(1);
+  }
+  100% {
+    @include opacity(0);
+    @include transform(translateX(-800px));
+  }
+}
+
+@include keyframes(cloud-04) {
+  0% {
+    @include opacity(0);
+  @include transform(translateX(100px));
+  }
+  2% {
+    @include opacity(1);
+  }
+  50% {
+    @include transform(translateX(-100px));
+  }
+  98% {
+    @include opacity(1);
+  }
+  100% {
+    @include opacity(0);
+    @include transform(translateX(100px));
+  }
+}
+
+.cloud { display:block; position: absolute; background-repeat: no-repeat; left: 50%; top: 50%; }
+#cloud-1 {  @include size(146px 87px); background-image: url('../img/world/cloud-01.png'); margin: -173px 0 0 -378px;
+            @include animation(cloud-01 100s linear infinite);
+          }
+#cloud-2 {  @include size(482px 211px); background-image: url('../img/world/cloud-02.png'); margin: -465px 0 0 -757px;
+            @include animation(cloud-02 150s linear infinite);
+}
+#cloud-3 {  @include size(339px 230px); background-image: url('../img/world/cloud-03.png'); margin: -530px 0 0 300px;
+            @include animation(cloud-03 200s ease-out infinite);
+}
+#cloud-4 {  @include size(183px 110px); background-image: url('../img/world/cloud-04.png'); margin: -360px 0 0 40px;
+             @include animation(cloud-04 300s ease-out infinite);
+}
+
+// Wave
+#canvas {position: absolute; left: 50%; top: 50%; margin: -95px 0 0 -470px;  z-index: -1; }
+@media screen and (max-height: 42.1875em) {
+  #canvas { top: 337px; }
+  #cloud-1, #cloud-2, #cloud-3, #cloud-4 { top:337px;  }
+}

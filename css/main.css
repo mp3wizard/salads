@@ -3065,7 +3065,14 @@ main {
   .rsContent { padding-left: 220px; }
   .sasa { margin-right: 0!important; }
 
+  #btnGoFB, #btnGoIG { display: block; width: 32px; height: 32px; text-indent: -1000em; background: url('../img/fb_icon.png') no-repeat; position: absolute; left: 50%; margin-left: -20px; bottom: 9px;}
+  #btnGoIG { margin-left: 15px; background: url('../img/ig_icon.png') no-repeat; }
 
+  #hd-salads_game { width: 456px; height: 74px; display: block;  text-indent: -1000em; position: absolute; background: url('../img/world/text.png') no-repeat; top: 50%; left: 50%; margin-left: -160px; margin-top: -340px;}
+
+   @media screen and (max-height: 42.1875em) {
+    #hd-salads_game { top: 0px; margin-top: 0; }
+   }
 
 
 /* ======== End ======== */

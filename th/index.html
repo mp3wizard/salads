@@ -17,9 +17,10 @@
         <script src="http://code.createjs.com/movieclip-0.7.0.min.js"></script>
         <script src="http://code.createjs.com/preloadjs-0.4.0.min.js"></script>
         <script src="../js/wave.js"></script>
+        <script src="../js/jaja.js"></script>
 
         <script>
-            var canvas, stage, exportRoot;
+            var canvas, stage, exportRoot, canvas2, stage2, exportRoot2;
 
             function init() {
                 canvas = document.getElementById("canvas");
@@ -29,6 +30,17 @@
                 loader.addEventListener("fileload", handleFileLoad);
                 loader.addEventListener("complete", handleComplete);
                 loader.loadManifest(lib.properties.manifest);
+            }
+
+            // Jaja Animation
+            function init2() {
+                canvas2 = document.getElementById("jaja");
+                images2 = images||{};
+
+                var loader2 = new createjs.LoadQueue(false);
+                loader2.addEventListener("fileload", handleFileLoad2);
+                loader2.addEventListener("complete", handleComplete2);
+                loader2.loadManifest(lib.properties.manifest);
             }
 
             function handleFileLoad(evt) {
@@ -45,9 +57,25 @@
                 createjs.Ticker.setFPS(lib.properties.fps);
                 createjs.Ticker.addEventListener("tick", stage);
             }
+
+            // Jaja Animation
+            function handleFileLoad2(evt) {
+                if (evt.item.type == "image") { images2[evt.item.id] = evt.result; }
+            }
+
+            function handleComplete2() {
+                exportRoot2 = new lib.jaja();
+
+                stage2 = new createjs.Stage(jaja);
+                stage2.addChild(exportRoot2);
+                stage2.update();
+
+                createjs.Ticker.setFPS(lib.properties.fps);
+                createjs.Ticker.addEventListener("tick", stage2);
+            }
         </script>
     </head>
-    <body onload="init();">
+    <body onload="init(); init2();">
 
         <div id="wrapper">
             <div id="cloud-1" class="cloud"></div>
@@ -56,6 +84,7 @@
             <div id="cloud-4" class="cloud"></div>
 
             <canvas id="canvas" width="550" height="400" style="background-color:transparent"></canvas>
+            <canvas id="jaja" width="313" height="379" style="background-color:transparent"></canvas>
         </div>
         <main>
             <h2 id="hd-salads_game">อีก 2 สัปดาห์ มาพบกับเกมส์สนุกๆ จาก เดอะสลัด และร่วมสนุกกับกิจกรรมทางเฟซบุ๊ค ได้ที่ Facebook TheSALADS</h2>

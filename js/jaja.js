@@ -149,5 +149,5 @@ p.nominalBounds = new cjs.Rectangle(-106,-85,212,170);
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-154.5,-182,301,377);
 
-})(lib = lib||{}, images = images||{}, createjs = createjs||{});
-var lib, images, createjs;
+})(lib2 = lib2||{}, images2 = images2||{}, createjs = createjs||{});
+var lib2, images2, createjs;

@@ -95,8 +95,8 @@
 
 // Wave
 #canvas {position: absolute; left: 50%; top: 50%; margin: -95px 0 0 -470px;  z-index: -1; }
+#jaja { position: absolute; bottom: 90px; left: 0; z-index: -1; }
 @media screen and (max-height: 42.1875em) {
   #canvas { top: 337px; }
   #cloud-1, #cloud-2, #cloud-3, #cloud-4 { top:337px;  }
 }
-#jaja { position: fixed; bottom: 90px; left: 0; z-index: 3; }
